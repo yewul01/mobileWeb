@@ -1,0 +1,59 @@
+{    
+
+    "part1" : [
+        {
+            "name":"Space作",
+            "recommend":"추천메뉴 : 먹물치즈치아바타(★), 크루아상, 딸기조각케이크",
+            "location":"오시는길 : 경기 부천시 까치로20번길 13-7",
+            "photo":"images/space作.jpg"
+        },
+        {
+            "name":"RACHEL'S KITCHEN",
+            "recommend":"추천메뉴 : 기적의 팬케이크(★), 반가워 딸기(★)",
+            "location":"오시는길 : 경기 부천시 신흥로 190-1",
+            "photo":"images/RACHEL'S KITCHEN.jpg"
+        },
+        {
+            "name":"Wonjongdabang",
+            "recommend":"추천메뉴 : 다방브런치, 머랭쿠키",
+            "location":"오시는길 : 경기 부천시 삼작로380번길 10 1층",
+            "photo":"images/wonjongdabang.jpg"
+        }
+     ],
+    "part2" : [
+        {
+            "name":"MASIRANG",
+            "recommend":"추천메뉴 : 마시랑(★), 치즈올리브치아바타",
+            "location":"오시는길 : 인천 중구 마시란로 163",
+            "photo":"images/masirang.jpg"
+        },
+        {
+            "name":"M CLIFF",
+            "recommend":"추천메뉴 : 베이컨 갈릭(★), 먹물 치즈빵",
+            "location":"오시는길 : 인천 중구 마시란로 51-30",
+            "photo":"images/M CLIFF.jpg"
+        } 
+     ],
+    "part3" : [
+       {
+           "name":"Dirty Trunk",
+           "recommend":"추천메뉴 : 헝그리LA, 크로크무슈(★)",
+           "location":"오시는길 : 경기 파주시 지목로 114",
+           "photo":"images/paju.jpg"
+       },
+       {
+           "name":"Ryoo Jae Eun Bakery",
+           "recommend":"추천메뉴 : 마늘빵(★), 몽블랑",
+           "location":"오시는길 : 경기 파주시 탄현면 새오리로 77 프로방스",
+           "photo":"images/bakery.jpg"
+       }
+    ],
+    "part4" : [
+        {
+            "name":"KIKRUS",
+            "recommend":"추천메뉴 : 매콤 토마토 피자, 바우빵(★)",
+            "location":"오시는길 : 강원 강릉시 창해로14번길 48-1",
+            "photo":"images/KIKRUS.jpg"
+        }
+     ]
+}
