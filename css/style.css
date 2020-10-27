@@ -134,7 +134,7 @@ ol {
 
 /* 메인페이지 */
 .mainContent #step_area {
-    height: 300px
+    height: 300px; 
 }
 .mainContent .setArea {
     height: 100%
@@ -145,13 +145,13 @@ ol {
 .mainContent .setArea .ty01 {
     text-align: center;
     position: relative;
-    top: 125px;
+    top: 50px;
 }
-.mainContent .setArea i {
+/* .mainContent .setArea i {
     color: #fff;
     padding-right: 10px;
-}
-.mainContent .setArea a {
+} */
+/* .mainContent .setArea a {
     padding: 30px;
     background: rgb(48, 172, 255);
     color: #fff;
@@ -160,7 +160,7 @@ ol {
     font-size: 20px;
     width: 100%;
     height: 100%;
-}
+} */
 
 
 /* 오시는길(map.html) */
