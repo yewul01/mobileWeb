@@ -85,53 +85,16 @@ ol {
 }
 #navWrap #lnb {
     position: absolute;
-    top: 47.8px;
+    top: 0;
     left: 0;
     bottom: 0;
-    width: -274px;
+    width: 150px;
     background: #fff;
 }
-
-
-/* 햄버거 버튼 */
-#header .lnb_menu {
-    z-index: 9999;
-    background: #fff;
-}
-#header .lnb_menu .btn-menu {
-    position: relative;
-    left: 5px;
-}
-#header .lnb_menu .btn-menu:before {
-    display: block;
-    content: '';
-    position: relative;
-    left: 15px;
-    top: 20px;
-    width: 36px;
-    height: 3px;
-    background: #000;
-    transition: all .3s;
-}
-#header .lnb_menu .btn-menu:after {
-    display: block;
-    content: '';
-    position: relative;
-    left: 15px;
-    top: 24px;
-    width: 36px;
-    height: 3px;
-    background: #000;
-    transition: all .3s;
-}
-#header .lnb_menu .btn-menu.active:before {
-    transform: translateX(-50%) rotate(45deg) translateZ(0);
-    margin-top: -6.3px;
-}
-#header .lnb_menu .btn-menu.active:after {
-    transform: translateX(-50%) rotate(-45deg) translateZ(0);
-    margin-top: -6.3px;
-}
+#navWrap #lnb .menuBox { text-align: center; }
+#navWrap #lnb .menuBox a { padding: 10px 39px; border: 1px solid #000; }
+#navWrap #lnb .menuBox a:nth-of-type(1) { position: relative; top: 45px; }
+#navWrap #lnb #lnb_close { position: absolute; top: -5px; left: 114px; }
 
 
 /* 상단 검색창 */
