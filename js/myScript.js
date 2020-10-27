@@ -52,9 +52,14 @@
     })
 
     // 햄버거 버튼 클릭하면 네비박스 열기
-    $('#lnb_menu').on('click',function(){
+    $('.lnb_menu').on('click',function(){
       $(this).next().css({ display:'block' })
       $('#lnb').animate({left:'0px'}, 500)
+    })
+    $('.lnb_close').on('click',function(){
+      $('#lnb').animate({ left:'-274px'}, 500, function(){
+      $('#navWrap').css({ display:'none'})
+      })
     })
 
 
