@@ -133,35 +133,16 @@ ol {
 
 
 /* 메인페이지 */
-.mainContent #step_area {
-    height: 300px; 
-}
-.mainContent .setArea {
-    height: 100%
-}
-.mainContent .setArea div {
-    height: 100%;
-}
-.mainContent .setArea .ty01 {
-    text-align: center;
-    position: relative;
-    top: 50px;
-}
-/* .mainContent .setArea i {
-    color: #fff;
-    padding-right: 10px;
-} */
-/* .mainContent .setArea a {
-    padding: 30px;
-    background: rgb(48, 172, 255);
-    color: #fff;
-    border-radius: 5px;
-    font-family: 'Do Hyeon', sans-serif;
-    font-size: 20px;
-    width: 100%;
-    height: 100%;
-} */
-
+.mainContent #step_area { position: relative; top: 80px; height:406px; display:grid; grid-template-rows: 66.66% 33.33% }
+.mainContent .setArea { height:100%; display:grid; grid-template-columns: 50% 50%; }
+.mainContent .setArea > div { height:100% }
+.mainContent div.cafe { background:#4ab8bc; }
+.mainContent div.serch_wrap > div { height:50%; }
+.mainContent div.serch_wrap > div:first-child { background:#589dd2 }
+.mainContent div.serch_wrap > div:last-child { background:#ff912f }
+.mainContent .setArea .board_game { background:#589dd2 }
+.mainContent .setArea .escape_room { background:#8dca35 }
+.mainContent #step_area a { display:block; width:100%; height:100%; text-align:center }
 
 /* 오시는길(map.html) */
 /* iframe은 기본성격이 inline-block */
