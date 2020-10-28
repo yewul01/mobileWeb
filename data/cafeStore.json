@@ -1,6 +1,6 @@
 {    
 
-    "part1" : [
+    "cafe1" : [
         {
             "name":"Space作",
             "recommend":"추천메뉴 : 먹물치즈치아바타(★), 크루아상, 딸기조각케이크",
@@ -20,7 +20,7 @@
             "photo":"images/wonjongdabang.jpg"
         }
      ],
-    "part2" : [
+    "cafe2" : [
         {
             "name":"MASIRANG",
             "recommend":"추천메뉴 : 마시랑(★), 치즈올리브치아바타",
@@ -34,7 +34,7 @@
             "photo":"images/M CLIFF.jpg"
         } 
      ],
-    "part3" : [
+    "cafe3" : [
        {
            "name":"Dirty Trunk",
            "recommend":"추천메뉴 : 헝그리LA, 크로크무슈(★)",
@@ -48,7 +48,7 @@
            "photo":"images/bakery.jpg"
        }
     ],
-    "part4" : [
+    "cafe4" : [
         {
             "name":"KIKRUS",
             "recommend":"추천메뉴 : 매콤 토마토 피자, 바우빵(★)",

@@ -13,7 +13,7 @@
     var usedata;
     $.ajax({
       type:'GET',
-      url:'data/store.json',
+      url:'data/cafeStore.json',
       beforeSend: function (xhr) {
         if (xhr.overrideMimeType) {
           xhr.overrideMimeType("application/json");
@@ -31,15 +31,15 @@
       $('#container').on('click','.storeContent .storeList a', function(e){
         e.preventDefault()
         var url = this.href;
-        var part = $(this).attr('class')
+        var cafe = $(this).attr('class')
           $("#container > #content").remove();
           $("#container").load(url + " #content", function(){
             var newContent = '';
-            for (var i in usedata[part]) {
-              newContent += `<li><div class="img"><img src="${usedata[part][i].photo}" alt=""></div>`
-              newContent += `<div class="storeInfo"><strong>${usedata[part][i].name}</strong>`
-              newContent += `<p>${usedata[part][i].recommend}</p>`
-              newContent += `<div class="location">${usedata[part][i].location}</div></div></li>`
+            for (var i in usedata[cafe]) {
+              newContent += `<li><div class="img"><img src="${usedata[cafe][i].photo}" alt=""></div>`
+              newContent += `<div class="storeInfo"><strong>${usedata[cafe][i].name}</strong>`
+              newContent += `<p>${usedata[cafe][i].recommend}</p>`
+              newContent += `<div class="location">${usedata[cafe][i].location}</div></div></li>`
             }
             $('#content .part1StoreList').html(`<ul>${newContent}</ul>`)
           });
