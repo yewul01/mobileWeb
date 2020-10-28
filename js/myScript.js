@@ -71,7 +71,7 @@
     })
     
     
-      $('#container').on('click', '.setArea .serch_wrap .board_game a', function(e){
+      $('#container').on('click', '.serch_wrap .board_game a', function(e){
         e.preventDefault()
         var url = this.href;
         var board = $(this).attr('class')
