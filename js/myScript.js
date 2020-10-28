@@ -38,8 +38,8 @@
             for (var i in usedata[cafe]) {
               newContent += `<li><div class="img"><img src="${usedata[cafe][i].photo}" alt=""></div>`
               newContent += `<div class="storeInfo"><strong>${usedata[cafe][i].name}</strong>`
-              newContent += `<p>${usedata[cafe][i].recommend}</p>`
-              newContent += `<div class="location">${usedata[cafe][i].location}</div></div></li>`
+              newContent += `<p><i class="far fa-thumbs-up"></i> ${usedata[cafe][i].recommend}</p>`
+              newContent += `<div class="location"><i class="fas fa-map-marker-alt"></i> ${usedata[cafe][i].location}</div></div></li>`
             }
             $('#content .part1StoreList').html(`<ul>${newContent}</ul>`)
           });
