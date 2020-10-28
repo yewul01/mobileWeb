@@ -135,11 +135,10 @@ ol {
 /* 메인페이지 */
 .mainContent #step_area { position: relative; top: 80px; height:406px; display:grid; grid-template-rows: 66.66% 33.33% }
 .mainContent .setArea { height:100%; display:grid; grid-template-columns: 50% 50%; }
-.mainContent .setArea > div { height:100% }
-.mainContent div.cafe { background:#4ab8bc; }
+.mainContent .setArea a { color: #fff; font-family: 'Do Hyeon', sans-serif; font-size: 24px; padding }
+.mainContent .setArea > div { height:100%; }
+.mainContent div.cafe { background:#2282ff; }
 .mainContent div.serch_wrap > div { height:50%; }
-.mainContent div.serch_wrap > div:first-child { background:#589dd2 }
-.mainContent div.serch_wrap > div:last-child { background:#ff912f }
 .mainContent .setArea .board_game { background:#589dd2 }
 .mainContent .setArea .escape_room { background:#8dca35 }
 .mainContent #step_area a { display:block; width:100%; height:100%; text-align:center }
@@ -164,7 +163,7 @@ ol {
 }
 .storeContent ul {
     display: grid;
-    grid-template-columns: 180px 180px;
+    grid-template-columns: 130px 130px;
     padding: 10px 10px;
 }
 .storeContent ul li {
@@ -175,7 +174,7 @@ ol {
 }
 .storeContent .storeList {
     position: relative;
-    left: 65px;
+    left: 40px;
 }
 
 
@@ -183,7 +182,7 @@ ol {
 .part1Content { background: #fff; }
 .part1StoreList { padding: 10px 10px; text-align: center; }
 .part1StoreList ul li { display: grid; grid-template-rows: 1fr auto; }
-.part1StoreList ul li img { width: 95vw; height: auto; }
+.part1StoreList ul li img { width: 90vw; height: auto; }
 .part1StoreList .storeInfo { font-family: 'Do Hyeon', sans-serif; }
 .part1StoreList .storeInfo strong { 
     display: block; font-size: 20px; padding: 5px; color: rgb(89, 0, 255);
