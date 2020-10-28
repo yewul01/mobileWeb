@@ -97,13 +97,12 @@ ol {
 #navWrap #lnb #lnb_close { position: absolute; top: -5px; left: 114px; }
 
 
-/* 상단 검색창 */
-#header .search>a>img {
-    padding: 5px 5px 0;
-}
 #container {
     background: #fff;
 }
+
+/* 로고 위치 */
+#header h1 { position: relative; left: 17px; }
 
 
 /* 모든 페이지 컨텐트박스 최소높이 */
@@ -116,7 +115,7 @@ ol {
 /* 이전페이지 */
 #content .contTit {
     display: grid;
-    grid-template-columns: 45px auto;
+    grid-template-columns: 40px 280px;
 }
 #content .prev img {
     width: 100%;
@@ -194,6 +193,18 @@ ol {
     font-family: 'Staatliches', cursive; }
 .part1StoreList .storeInfo p { font-size: 15px; }
 .part1StoreList .storeInfo .location { font-size: 15px; padding-bottom: 5px; }
+
+/* 보드게임 페이지 스타일 */
+.boardGameContent { background: #fff; }
+.boardGameStoreList { padding: 10px; text-align: center; }
+.boardGameStoreList ul li { display: grid; grid-template-rows: 1fr auto; }
+.boardGameStoreList ul li img { width: 92vw; height: auto; }
+.boardGameStoreList .boardGameInfo { font-family: 'Do Hyeon', sans-serif; padding-top: 30px; }
+.boardGameStoreList .boardGameInfo strong { 
+    display: block; font-size: 20px; color:  rgb(89, 0, 255);
+    font-family: 'Staatliches', cursive; }
+.boardGameStoreList .boardGameInfo .time { padding-top: 15px; }
+.boardGameStoreList .boardGameInfo .location { font-size: 15px; padding-bottom: 5px; }
 
 
 /* 푸터구역 */

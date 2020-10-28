@@ -55,5 +55,14 @@
             "location":"오시는길 : 강원 강릉시 창해로14번길 48-1",
             "photo":"images/KIKRUS.jpg"
         }
-     ]
+    ],
+    "board1" : [
+        {
+            "name":"Red Button",
+            "time":"평일 13:00 - 1:00",
+            "cost":"1인 1시간(평일) - 2,400원<br><span>1인 시간(주말및공휴일) - 3,000원",
+            "location":"위치 : 경기 부천시 부일로 459 401호",
+            "photo":"images/board_game1.jpg"
+        }
+    ]
 }
