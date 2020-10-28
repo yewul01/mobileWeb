@@ -135,7 +135,8 @@ ol {
 /* 메인페이지 */
 .mainContent #step_area { position: relative; top: 80px; height:406px; display:grid; grid-template-rows: 66.66% 33.33% }
 .mainContent .setArea { height:100%; display:grid; grid-template-columns: 50% 50%; }
-.mainContent .setArea a { color: #fff; font-family: 'Do Hyeon', sans-serif; font-size: 24px; padding }
+.mainContent .setArea a { color: #fff; font-family: 'Do Hyeon', sans-serif; font-size: 24px; }
+.mainContent .setArea a i { padding-left: 5px; }
 .mainContent .setArea > div { height:100%; }
 .mainContent div.cafe { background:#2282ff; }
 .mainContent div.serch_wrap > div { height:50%; }
@@ -182,7 +183,7 @@ ol {
 .part1Content { background: #fff; }
 .part1StoreList { padding: 10px 10px; text-align: center; }
 .part1StoreList ul li { display: grid; grid-template-rows: 1fr auto; }
-.part1StoreList ul li img { width: 90vw; height: auto; }
+.part1StoreList ul li img { width: 92vw; height: auto; }
 .part1StoreList .storeInfo { font-family: 'Do Hyeon', sans-serif; }
 .part1StoreList .storeInfo strong { 
     display: block; font-size: 20px; padding: 5px; color: rgb(89, 0, 255);
