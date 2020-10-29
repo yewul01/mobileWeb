@@ -91,9 +91,11 @@ ol {
     width: 150px;
     background: #fff;
 }
+#navWrap #lnb .nav_logo { position: relative; top: 50px; padding-bottom: 15px; border-bottom: 1px solid #ccc; }
+#navWrap #lnb .nav_logo img { width: 100%; }
 #navWrap #lnb .menuBox { text-align: center; }
-#navWrap #lnb .menuBox a { padding: 10px 39px; border: 1px solid #000; background: #ddd; }
-#navWrap #lnb .menuBox a:nth-of-type(1) { position: relative; top: 45px; }
+#navWrap #lnb .menuBox li { padding: 5px 0; position: relative; top: 65px; display: block; }
+#navWrap #lnb .menuBox a {display: inline-block; padding: 10px 10px; font-family: 'Do Hyeon', sans-serif; }
 #navWrap #lnb #lnb_close { position: absolute; top: -5px; left: 114px; }
 
 
