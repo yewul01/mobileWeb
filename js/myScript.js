@@ -2,7 +2,7 @@
 
     // 로고를 클릭하면 main.html의 #content를 load()
     $('#wrap')
-    .on("click", "#header h1 a, #footer .quickMenu a, .mainContent #step_area a, .contTit .prev a",function () {
+    .on("click", "#header h1 a,#header .menuBox a, #footer .quickMenu a, .mainContent #step_area a, .contTit .prev a",function () {
         var url = this.href;
       $("#container > #content").remove();
       $("#container").load(url + " #content");
