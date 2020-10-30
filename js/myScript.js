@@ -102,6 +102,12 @@
       })
     })
 
+    // 네비 메뉴 클릭시 햄버거 버튼만 보이게 하기
+    $('#lnb .menuBox a').on('click',function(){
+      $('#navWrap, #lnb_close').hide()
+    })
+
+    
     // 검색 아이콘 클릭시 검색창 열기
     $('.search-open a').on('click',function(){
       $('.search-box').addClass('on')
