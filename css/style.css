@@ -191,6 +191,17 @@ ol {
     background: #fff;
 }
 
+/* 공지사항 */
+.noticeContent #notice-box { padding: 20px 10px; }
+.noticeContent #notice-box li { margin: 10px 0; padding: 10px 5px 20px; border: 1px solid #ccc; }
+.noticeContent #notice-box li strong { color: #4796d3; font-size: 14px; }
+.noticeContent #notice-box li p  { font-size: 13px; padding-top: 5px; }
+.noticeContent .numlist { text-align: center; color: rgb(31, 31, 31); padding-bottom: 13px; }
+.noticeContent .numlist .on { background: #ddd; }
+.noticeContent .numlist span { border: 1px solid #ddd; padding: 0 3px; }
+.noticeContent .numlist a { border: 1px solid #ddd; padding: 0 3px; }
+
+
 
 /* 메인페이지 */
 .mainContent #step_area { position: relative; top: 80px; height:406px; display:grid; grid-template-rows: 66.66% 33.33% }
