@@ -36,8 +36,24 @@
             <h1 class="logo">
                 <a href="index.html"><img src="images/logo.png" alt="cafe tour"></a>
             </h1>
-            <div class="search">
-                <a href="#"><img src="images/search2.png" alt="검색"></a>
+            <div class="search-open">
+                <a href="#">
+                    <i class="fas fa-search"></i>
+                    <span class="blind">검색</span>
+                </a>
+            </div>
+            <div class="search-box">
+                <form action="#" method="POST" class="search-form">
+                    <fieldset>
+                        <legend>검색창</legend>
+                        <input type="text" name="search" id="search" placeholder="검색어를 입력해주세요.">
+                        <button type="reset"><i class="fas fa-times"></i></button>
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="search-close">
+                <a href="#"><i class="fas fa-times"></i></a>
             </div>
         </header>
 

@@ -95,10 +95,14 @@
       $(this).next().css({ display:'block' })
       $('#lnb').animate({left:'0px'}, 500)
     })
+    // 햄버거 버튼 클릭하면 네비박스 닫기
     $('#lnb_close').on('click',function(){
       $('#lnb').animate({ left:'-274px'}, 500, function(){
       $('#navWrap').css({ display:'none'})
       })
+    })
+    $('.search-box a').on('click',function(){
+      $()
     })
 
 
