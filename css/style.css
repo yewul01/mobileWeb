@@ -7,17 +7,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 a {
     color: inherit;
     text-decoration: none;
 }
+
 img {
     vertical-align: middle;
 }
+
 ul,
 ol {
     list-style-type: none;
 }
+
 .blind {
     position: absolute;
     left: -9999px;
@@ -50,6 +54,7 @@ ol {
     justify-content: center;
     /* 각각 자식을 세로 가운데정렬, 가로 가운데정렬 */
 }
+
 @media screen and (max-width:768px) {
     #onlyMobile {
         display: none;
@@ -71,6 +76,9 @@ ol {
     justify-content: space-between;
 }
 
+#container {
+    background: #fff;
+}
 
 /* 모바일 nav(햄버거 버튼) */
 #navWrap {
@@ -83,6 +91,7 @@ ol {
     z-index: 999999;
     display: none;
 }
+
 #navWrap #lnb {
     position: absolute;
     top: 0;
@@ -91,77 +100,138 @@ ol {
     width: 150px;
     background: #fff;
 }
-#header .nav_menu i { font-size: 28px; padding: 10px; color: #396285; }
-#navWrap #lnb .nav_logo { position: relative; top: 50px; padding-bottom: 15px; border-bottom: 1px solid #ccc; }
-#navWrap #lnb .nav_logo img { width: 100%; }
-#navWrap #lnb .menuBox { text-align: center; }
-#navWrap #lnb .menuBox li { padding: 5px 0; position: relative; top: 65px; display: block; }
-#navWrap #lnb .menuBox a {display: inline-block; padding: 10px 10px; font-family: 'Do Hyeon', sans-serif; }
-#navWrap #lnb #lnb_close { position: absolute; top: -5px; left: 114px; }
 
-
-#container {
-    background: #fff;
+#header .nav_menu i {
+    font-size: 28px;
+    padding: 10px;
+    color: #396285;
 }
 
+#navWrap #lnb .nav_logo {
+    position: relative;
+    top: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+#navWrap #lnb .nav_logo img {
+    width: 100%;
+}
+
+#navWrap #lnb .menuBox {
+    text-align: center;
+}
+
+#navWrap #lnb .menuBox li {
+    padding: 5px 0;
+    position: relative;
+    top: 65px;
+    display: block;
+}
+
+#navWrap #lnb .menuBox a {
+    display: inline-block;
+    padding: 10px 10px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+#navWrap #lnb #lnb_close {
+    position: absolute;
+    top: -5px;
+    left: 114px;
+}
+
+.login {
+    position: relative;
+    top: 75px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.login a {
+    border-radius: 1px solid #fff;
+    background: #2282ff;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px 40px;
+}
+
+
+
 /* 로고 위치 */
-#header h1 { position: relative; right: 65px; }
+#header h1 {
+    position: relative;
+    right: 65px;
+}
 
 
 /* 헤더 검색창 */
-.search-open { 
-    position: absolute; 
-    right: 7px; 
+.search-open {
+    position: absolute;
+    right: 7px;
     top: 0;
-    font-size: 30px; 
-    color: #396285; 
+    font-size: 30px;
+    color: #396285;
 }
-.search-box { 
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    bottom: 0; 
-    right: 0; 
-    display: none; 
-    background: rgba(0,0,0,0.5); 
+
+.search-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
 }
-.search-box.on { display: block; }
-.search-box .search-form { 
-    position: absolute; 
-    top: 15%; 
+
+.search-box.on {
+    display: block;
+}
+
+.search-box .search-form {
+    position: absolute;
+    top: 15%;
     left: 50%;
-    transform: translate(-50%); 
-    width: 100%; 
+    transform: translate(-50%);
+    width: 100%;
     height: 60px;
-    background: #fff;  
-    border-radius: 5px; 
-    border: none; 
+    background: #fff;
+    border-radius: 5px;
+    border: none;
 }
-.search-box .search-form legend { display: none; }
+
+.search-box .search-form legend {
+    display: none;
+}
+
 .search-box .search-form input {
-    width: 77.5%; 
-    height: 100%; 
-    text-align: left; 
-    padding-left: 8px; 
+    width: 77.5%;
+    height: 100%;
+    text-align: left;
+    padding-left: 8px;
     background: #fff;
 }
-.search-box .search-form button { 
-    background: none; 
-    line-height: 60px; 
-    border: none; 
+
+.search-box .search-form button {
+    background: none;
+    line-height: 60px;
+    border: none;
 }
-.search-box .search-form button i { 
-    font-size: 23px; 
-    padding: 0px 3px; 
-    vertical-align: middle; 
+
+.search-box .search-form button i {
+    font-size: 23px;
+    padding: 0px 3px;
+    vertical-align: middle;
     padding-left: 8px;
 }
-.search-box .search-close { 
-    font-size: 23px; 
-    color: #000; 
-    position: absolute; 
-    top: 60px; 
-    right: 13px; 
+
+.search-box .search-close {
+    font-size: 23px;
+    color: #000;
+    position: absolute;
+    top: 60px;
+    right: 13px;
 }
 
 
@@ -178,10 +248,12 @@ ol {
     display: grid;
     grid-template-columns: 40px 280px;
 }
+
 #content .prev img {
     width: 100%;
     background: #fff;
 }
+
 #content h2 {
     text-align: center;
     font-size: 20px;
@@ -191,33 +263,74 @@ ol {
     background: #fff;
 }
 
-/* 공지사항 */
-.noticeContent #notice-box { padding: 20px 10px; }
-.noticeContent #notice-box li { margin: 10px 0; padding: 10px 5px 20px; border: 1px solid #ccc; }
-.noticeContent #notice-box li strong { color: #4796d3; font-size: 14px; }
-.noticeContent #notice-box li p  { font-size: 13px; padding-top: 5px; }
-.noticeContent .numlist { text-align: center; color: rgb(31, 31, 31); padding-bottom: 13px; }
-.noticeContent .numlist .on { background: #ddd; }
-.noticeContent .numlist span { border: 1px solid #ddd; padding: 0 3px; }
-.noticeContent .numlist a { border: 1px solid #ddd; padding: 0 3px; }
-
 
 
 /* 메인페이지 */
-.mainContent #step_area { position: relative; top: 80px; height:406px; display:grid; grid-template-rows: 66.66% 33.33% }
-.mainContent .setArea { height:100%; display:grid; grid-template-columns: 50% 50%;  }
-.mainContent .setArea a { color: #fff; font-family: 'Do Hyeon', sans-serif; font-size: 24px; }
+.mainContent #step_area {
+    position: relative;
+    top: 80px;
+    height: 406px;
+    display: grid;
+    grid-template-rows: 66.66% 33.33%
+}
 
-.mainContent .setArea > div { height:100%; }
-.mainContent .setArea .cafe { background:#2282ff; }
-.mainContent .setArea .cafe a { position: relative; top: 120px; }
-.mainContent .setArea i { padding-right: 10px; }
-.mainContent .setArea .serch_wrap > div { height:50%; }
-.mainContent .setArea .board_game { background:#4796d3; }
-.mainContent .setArea .board_game a { position: relative; top: 50px; }
-.mainContent .setArea .escape_room { background:#87c92b; }
-.mainContent .setArea .escape_room a { position: relative; top: 50px; }
-.mainContent #step_area a { display:block; width:100%; height:100%; text-align:center }
+.mainContent .setArea {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.mainContent .setArea a {
+    color: #fff;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 24px;
+}
+
+.mainContent .setArea>div {
+    height: 100%;
+}
+
+.mainContent .setArea .cafe {
+    background: #2282ff;
+}
+
+.mainContent .setArea .cafe a {
+    position: relative;
+    top: 120px;
+}
+
+.mainContent .setArea i {
+    padding-right: 10px;
+}
+
+.mainContent .setArea .serch_wrap>div {
+    height: 50%;
+}
+
+.mainContent .setArea .board_game {
+    background: #4796d3;
+}
+
+.mainContent .setArea .board_game a {
+    position: relative;
+    top: 50px;
+}
+
+.mainContent .setArea .escape_room {
+    background: #87c92b;
+}
+
+.mainContent .setArea .escape_room a {
+    position: relative;
+    top: 50px;
+}
+
+.mainContent #step_area a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center
+}
 
 /* 오시는길(map.html) */
 /* iframe은 기본성격이 inline-block */
@@ -233,21 +346,25 @@ ol {
 .storeContent {
     background: #fff;
 }
+
 .storeContent a {
     display: block;
     text-align: center;
 }
+
 .storeContent ul {
     display: grid;
     grid-template-columns: 130px 130px;
     padding: 10px 10px;
 }
+
 .storeContent ul li {
     background: #fff4be;
     margin: 5px;
     padding: 10px;
     border-radius: 5px;
 }
+
 .storeContent .storeList {
     position: relative;
     left: 40px;
@@ -255,28 +372,128 @@ ol {
 
 
 /* 파주 매장 리스트(part3.html) */
-.part1Content { background: #fff; }
-.part1StoreList { padding: 10px 10px; text-align: center; }
-.part1StoreList ul li { display: grid; grid-template-rows: 1fr auto; }
-.part1StoreList ul li img { width: 92vw; height: auto; }
-.part1StoreList .storeInfo { font-family: 'Do Hyeon', sans-serif; }
-.part1StoreList .storeInfo strong { 
-    display: block; font-size: 20px; padding: 5px; color: rgb(89, 0, 255);
-    font-family: 'Staatliches', cursive; }
-.part1StoreList .storeInfo p { font-size: 15px; }
-.part1StoreList .storeInfo .location { font-size: 15px; padding-bottom: 5px; }
+.part1Content {
+    background: #fff;
+}
+
+.part1StoreList {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.part1StoreList ul li {
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.part1StoreList ul li img {
+    width: 92vw;
+    height: auto;
+}
+
+.part1StoreList .storeInfo {
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.part1StoreList .storeInfo strong {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(89, 0, 255);
+    font-family: 'Staatliches', cursive;
+}
+
+.part1StoreList .storeInfo p {
+    font-size: 15px;
+}
+
+.part1StoreList .storeInfo .location {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
 
 /* 보드게임 페이지 스타일 */
-.boardGameContent { background: #fff; }
-.boardGameStoreList { padding: 10px; text-align: center; }
-.boardGameStoreList ul li { display: grid; grid-template-rows: 1fr auto; }
-.boardGameStoreList ul li img { width: 92vw; height: auto; }
-.boardGameStoreList .boardGameInfo { font-family: 'Do Hyeon', sans-serif; padding-top: 30px; }
-.boardGameStoreList .boardGameInfo strong { 
-    display: block; font-size: 20px; color:  rgb(89, 0, 255);
-    font-family: 'Staatliches', cursive; }
-.boardGameStoreList .boardGameInfo .time { padding-top: 15px; }
-.boardGameStoreList .boardGameInfo .location { font-size: 15px; padding-bottom: 5px; }
+.boardGameContent {
+    background: #fff;
+}
+
+.boardGameStoreList {
+    padding: 10px;
+    text-align: center;
+}
+
+.boardGameStoreList ul li {
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.boardGameStoreList ul li img {
+    width: 92vw;
+    height: auto;
+}
+
+.boardGameStoreList .boardGameInfo {
+    font-family: 'Do Hyeon', sans-serif;
+    padding-top: 30px;
+}
+
+.boardGameStoreList .boardGameInfo strong {
+    display: block;
+    font-size: 20px;
+    color: rgb(89, 0, 255);
+    font-family: 'Staatliches', cursive;
+}
+
+.boardGameStoreList .boardGameInfo .time {
+    padding-top: 15px;
+}
+
+.boardGameStoreList .boardGameInfo .location {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+/* 공지사항 */
+.noticeContent #notice-box {
+    padding: 20px 10px;
+}
+
+.noticeContent #notice-box li {
+    margin: 10px 0;
+    padding: 10px 5px 20px;
+    border: 1px solid #ccc;
+}
+
+.noticeContent #notice-box li strong {
+    color: #4796d3;
+    font-size: 14px;
+}
+
+.noticeContent #notice-box li p {
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.noticeContent .numlist {
+    text-align: center;
+    color: rgb(31, 31, 31);
+    padding-bottom: 13px;
+}
+
+.noticeContent .numlist .on {
+    background: #ddd;
+}
+
+.noticeContent .numlist span {
+    border: 1px solid #ddd;
+    padding: 0 3px;
+}
+
+.noticeContent .numlist a {
+    border: 1px solid #ddd;
+    padding: 0 3px;
+}
+
 
 
 /* 푸터구역 */
@@ -285,12 +502,15 @@ ol {
     color: #fff;
     padding: 22px 6px;
 }
+
 #footer .csCenter {
     position: relative;
 }
+
 #footer .csCenter .quickMenu {
     display: flex;
 }
+
 #footer .csCenter .quickMenu a {
     border-right: 1px solid #000;
     background: #5f6064;
@@ -299,30 +519,37 @@ ol {
     text-align: center;
     padding: 8px 0;
 }
+
 #footer .csCenter .quickMenu a:first-child {
     flex: 1;
 }
+
 #footer .csCenter .quickMenu a:last-child {
     flex: 1;
     border: none;
 }
+
 #footer .csCenter .comInfo {
     padding: 8px 10px 0;
     width: 70%;
     letter-spacing: 0.8px;
 }
+
 #footer .csCenter .comInfo span {
     display: block;
     font-size: 12px;
     padding: 2px 0;
 }
+
 #footer .csCenter .contact {
     width: 70%;
     padding: 30px 8px;
 }
+
 #footer .csCenter .contact a {
     padding: 0 5px;
 }
+
 #footer .csCenter .privacy {
     font-size: 12px;
     position: absolute;
@@ -331,16 +558,19 @@ ol {
     transform: translateY(-50%);
     text-align: right;
 }
+
 #footer .csCenter .privacy a {
     display: block;
     text-align: right;
     margin-bottom: 8px;
 }
+
 #footer .csCenter .privacy a span {
     background: rgb(117, 117, 117);
     padding: 5px;
     display: inline-block;
 }
+
 #footer .csCenter p {
     width: 100%;
     text-align: center;
