@@ -91,6 +91,7 @@ ol {
     width: 150px;
     background: #fff;
 }
+#header .nav_menu i { font-size: 28px; padding: 10px; color: #396285; }
 #navWrap #lnb .nav_logo { position: relative; top: 50px; padding-bottom: 15px; border-bottom: 1px solid #ccc; }
 #navWrap #lnb .nav_logo img { width: 100%; }
 #navWrap #lnb .menuBox { text-align: center; }
@@ -103,26 +104,27 @@ ol {
     background: #fff;
 }
 
-#header { position: relative; }
-
 /* 로고 위치 */
-#header h1 { position: relative; left: 17px; }
+#header h1 { position: relative; right: 120px; }
 
 
 /* 헤더 검색창 */
 .search-open { position: absolute; right: 7px; top: 0;
     font-size: 30px; color: #396285; }
-.search-box { position: fixed; top: 0; left: 0; bottom: 0; right: 0; }
+.search-box { position: fixed; top: 0; left: 0; bottom: 0; right: 0; display: none; }
 .search-box.on { display: block; }
-.search-box .search-form { position: absolute; top: 10%; left: 50%;
+.search-box .search-form { position: absolute; top: 15%; left: 50%;
     transform: translate(-50%); width: 100%; height: 50px;
-    background: #fff; border: 2px solid #000; border-radius: 5px; border: none; }
+    background: #fff; border: 2px solid #ccc; border-radius: 5px; border: none; }
 .search-box .search-form legend { display: none; }
 .search-box .search-form input { width: 80%; height: 100%; text-align: left; 
     padding-left: 8px; background: #fff; border: none; }
 .search-box .search-form button { background: none; line-height: 60px; border: none; }
 .search-box .search-form button i { font-size: 23px; padding: 0 3px; 
     vertical-align: middle; padding-left: 10px; }
+.search-box .search-close { font-size: 23px; color: #000; 
+    position: absolute; top: 60px; right: 13px; }
+
 
 
 /* 모든 페이지 컨텐트박스 최소높이 */

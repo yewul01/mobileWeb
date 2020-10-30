@@ -91,7 +91,7 @@
     })
 
     // 햄버거 버튼 클릭하면 네비박스 열기
-    $('#lnb_menu').on('click',function(){
+    $(' #header #lnb_menu a').on('click',function(){
       $(this).next().css({ display:'block' })
       $('#lnb').animate({left:'0px'}, 500)
     })
@@ -101,9 +101,18 @@
       $('#navWrap').css({ display:'none'})
       })
     })
-    $('.search-box a').on('click',function(){
-      $()
+
+    // 검색 아이콘 클릭시 검색창 열기
+    $('.search-open a').on('click',function(){
+      $('.search-box').addClass('on').stop().slideDown(300)
+      return false;
     })
+    // 검색 아이콘 클릭시 검색창 닫기
+    $('.search-close a').on('click',function(){
+      $(this).parents('.search-box').removeClass('on')
+      return false;
+    })
+    
 
 
 
