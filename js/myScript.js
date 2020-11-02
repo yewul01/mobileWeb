@@ -2,7 +2,7 @@
 
     // 로고를 클릭하면 main.html의 #content를 load()
     $('#wrap')
-    .on("click", "#header h1 a,#header .menuBox a, #footer .quickMenu a, .mainContent #step_area a, .contTit .prev a, .member a"
+    .on("click", "#header h1 a,#header .menuBox a, #footer .quickMenu a, .mainContent #step_area a, .contTit .prev a, .member .loginBtn a, .member .joinBtn a"
     ,function () {
         var url = this.href;
       $("#container > #content").remove();
@@ -122,3 +122,45 @@
 
       
   })(jQuery);
+
+  function join_check() {
+
+    if ( !document.member_form.id.value ) {
+      alert('아이디를 입력해주세요')
+      document.member_form.id.focus()
+      return false
+    }
+  
+    if ( !document.member_form.pass.value ) {
+      alert('비밀번호를 입력해주세요')
+      document.member_form.pass.focus()
+      return false
+    }
+  
+    if ( !document.member_form.passok.value ) {
+      alert('비밀번호를 확인해주세요')
+      document.member_form.passok.focus()
+      return false
+    }
+  
+    if ( !document.member_form.name.value ) {
+      alert('이름을 입력해주세요')
+      document.member_form.name.focus()
+      return false
+    }
+  
+    if ( !document.member_form.tel.value ) {
+      alert('전화번호를 입력해주세요')
+      document.member_form.tel.focus()
+      return false
+    }
+  
+    if (document.member_form.pass.value !== document.member_form.passok.value ) {
+      alert('비밀번호가 일치하지 않습니다.')
+      document.member_form.pass.focus()
+      return false
+    }
+  
+    document.member_form.submit()
+  
+  }
