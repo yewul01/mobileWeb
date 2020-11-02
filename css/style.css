@@ -174,17 +174,28 @@ ol {
 }
 #lnb .member .inBtn a { display: none; }
 
-/* nav구역 로그인/회원가입  */
+/* nav구역 로그인 */
 .loginContent fieldset { border: none; }
 .loginContent legend { display: none; }
 .loginContent #login_box { text-align: center; position: relative; top: 70px; }
 .loginContent #login_box input { padding-left: 8px; padding: 7px; width: 90%; }
 .loginContent #login_box p { padding: 5px 0; }
-.loginContent #login_box button[name=loginBtn] { width: 90%; padding: 10px 0; 
+.loginContent #login_box button { width: 90%; padding: 10px 0; 
     background: #2282ff; border: none; border-radius: 4px;
     margin-top: 8px; color: #fff; font-size: 16px; }
 .loginContent #login_box .find-idpw { margin-top: 23px; padding: 3px; border-top: 1px solid #ccc; }
 .loginContent #login_box .find-idpw a { font-size: 12px; padding: 0 3px; }
+
+/* nav구역 로그인 */
+.joinContent fieldset { border: none; }
+.joinContent legend { display: none; }
+.joinContent #join_box { text-align: center; }
+.joinContent #join_box p { padding: 5px 0; }
+.joinContent #join_box label { text-align: left; display: block; padding-left: 17px; 
+    padding-bottom: 5px; font-size: 14px; }
+.joinContent #join_box input { padding-left: 8px; padding: 5px; width: 90%; }
+.joinContent #join_box button { width: 90%; background: #2282ff; border: none; 
+    border-radius: 4px; padding: 12px 0; margin-top: 13px; color: #fff; }
 
 
 
