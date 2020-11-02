@@ -141,12 +141,11 @@ ol {
     left: 114px;
 }
 
+#lnb .member { text-align: center; }
 #lnb .member .loginBtn {
     position: relative;
     top: 75px;
     text-align: center;
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
     display: inline-block;
 }
 
@@ -155,14 +154,13 @@ ol {
     background: #2282ff;
     color: #fff;
     border-radius: 3px;
-    padding: 8px;
+    padding: 8px 13px;
     font-size: 13px;
 }
 #lnb .member .joinBtn {
     position: relative;
     top: 75px;
     text-align: center;
-    padding-top: 20px;
     display: inline-block;
 }
 
