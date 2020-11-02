@@ -190,7 +190,7 @@ ol {
 
 
 /* 로고 위치 */
-#header h1 { position: relative; }
+#header h1 { position: absolute; right: 63px; }
 
 
 /* 헤더 검색창 */
