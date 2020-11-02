@@ -104,7 +104,7 @@
     })
 
     // 네비 메뉴 클릭시 햄버거 버튼만 보이게 하기
-    $('#lnb .menuBox a').on('click',function(){
+    $('#lnb .menuBox a, .member a').on('click',function(){
       $('#navWrap, #lnb_close').hide()
     })
 

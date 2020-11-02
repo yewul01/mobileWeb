@@ -174,13 +174,17 @@ ol {
 }
 #lnb .member .inBtn a { display: none; }
 
+/* nav구역 로그인/회원가입  */
+.loginContent fieldset { border: none; }
+.loginContent legend { display: none; }
+.loginContent #login_box { text-align: center; position: relative; top: 70px; }
+.loginContent #login_box input { padding-left: 8px; padding: 7px; width: 90%; }
+.loginContent #login_box p { padding: 5px 0; }
+.loginContent #login_box button[name=loginBtn] { width: 90%; padding: 7px 0; 
+    background: #2282ff; border: none; border-radius: 4px;
+    margin-top: 8px; color: #fff; }
+.loginContent #login_box
 
-
-/* 로고 위치 */
-#header h1 {
-    position: relative;
-    right: 65px;
-}
 
 
 /* 헤더 검색창 */
