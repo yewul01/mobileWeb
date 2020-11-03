@@ -98,7 +98,7 @@ ol {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 150px;
+    width: 200px;
     background: #fff;
 }
 
@@ -139,7 +139,7 @@ ol {
 #navWrap #lnb #lnb_close {
     position: absolute;
     top: -5px;
-    left: 114px;
+    left: 163px;
 }
 
 #lnb .member { text-align: center; }
@@ -286,7 +286,7 @@ ol {
 
 
 /* 이전페이지 */
-#content .prev i { font-size: 25px; position: relative; left: 8px; }
+#content .prev i { font-size: 25px; position: relative; bottom: 7px; left: 8px; }
 #content h2 { 
     position: absolute; 
     top: -3%; 
