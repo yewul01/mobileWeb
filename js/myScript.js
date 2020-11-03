@@ -164,3 +164,19 @@
     document.member_form.submit()
   
   }
+
+  function login_check() {
+    if ( !document.login_form.id.value ) {
+      alert('아이디를 입력해주세요')
+      document.login_form.id.focus()
+      return false
+    }
+  
+    if ( !document.login_form.pass.value ) {
+      alert('비밀번호를 입력해주세요')
+      document.login_form.pass.focus()
+      return false
+    }
+
+    document.login_form.submit()
+  }
