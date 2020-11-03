@@ -172,7 +172,8 @@ ol {
     padding: 8px;
     font-size: 13px;
 }
-#lnb .member .inBtn a { display: none; }
+#lnb .member .inBtn { position: relative; top: 100px; display: none; }
+
 
 /* nav구역 로그인 */
 .loginContent fieldset { border: none; }
@@ -186,7 +187,7 @@ ol {
 .loginContent #login_box .find-idpw { margin-top: 23px; padding: 3px; border-top: 1px solid #ccc; }
 .loginContent #login_box .find-idpw a { font-size: 12px; padding: 0 3px; }
 
-/* nav구역 로그인 */
+/* nav구역 회원가입 */
 .joinContent fieldset { border: none; }
 .joinContent legend { display: none; }
 .joinContent #join_box { text-align: center; }
@@ -201,7 +202,7 @@ ol {
 
 
 /* 로고 위치 */
-#header h1 { position: absolute; right: 63px; }
+#header h1 { position: absolute; left: 50%; transform: translate(-50%); }
 
 
 /* 헤더 검색창 */
@@ -284,11 +285,10 @@ ol {
 /* 이전페이지 */
 #content .contTit {
     display: grid;
-    grid-template-columns: 40px 280px;
+    grid-template-columns: 40px auto;
 }
 
 #content .prev img {
-    width: 100%;
     background: #fff;
 }
 
