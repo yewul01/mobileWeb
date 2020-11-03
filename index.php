@@ -33,13 +33,6 @@
                     <div class="nav_logo">
                         <img src="images/logo.png" alt="nav 로고">
                     </div>
-                    <ul class="menuBox">
-                        <li><a href="cafeStore.html">전국 카페 매장</a></li>
-                        <li><a href="boardGame.html">보드게임 카페</a></li>
-                        <li><a href="escapeRoom.html">방탈출 카페</a></li>
-                        <li><a href="map.html">오시는길</a></li>
-                        <li><a href="notice.html">공지사항</a></li>
-                    </ul>
                     <div class="member">
                         <?php if(!$userid) { ?>
                         <div class="loginBtn"><a href="login.html">로그인</a></div>
@@ -50,6 +43,13 @@
                         <div class="inBtn"><a href="#none">정보수정</a></div>
                         <?php } ?>
                     </div>
+                    <ul class="menuBox">
+                        <li><a href="cafeStore.html">전국 카페 매장</a></li>
+                        <li><a href="boardGame.html">보드게임 카페</a></li>
+                        <li><a href="escapeRoom.html">방탈출 카페</a></li>
+                        <li><a href="map.html">오시는길</a></li>
+                        <li><a href="notice.html">공지사항</a></li>
+                    </ul>
 
                     <div id="lnb_close">
                         <a href="#"><img src="images/close.png" alt="메뉴닫기"></a>
