@@ -13,6 +13,15 @@
 
 <body>
     <div id="wrap">
+        <?php
+
+            session_start();
+            if (isset($_SESSION['userid'])) {
+                $userid = $_SESSION['userid'];
+                $username = $_SESSION['username'];
+            } else $userid = '';
+
+        ?>
         <header id="header" class="lnb_menu">
             <div id="lnb_menu" class="nav_menu">
                 <a href="#"><i class="fas fa-bars"></i></a>
@@ -34,6 +43,7 @@
                         <div class="loginBtn"><a href="login.html">로그인</a></div>
                         <div class="joinBtn"><a href="join.html">회원가입</a></div>
                         <?php } else { ?>
+                        <div class="inBtn"><?php echo $userid ?>님 환영합니다.</div>
                         <div class="inBtn"><a href="logout.php">로그아웃</a></div>
                         <div class="inBtn"><a href="#none">정보수정</a></div>
                         <?php } ?>
