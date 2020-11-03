@@ -40,7 +40,6 @@
                         <?php } else { ?>
                         <div class="inBtn"><?php echo $userid ?>님 환영합니다.</div>
                         <div class="inBtn"><a href="logout.php">로그아웃</a></div>
-                        <div class="inBtn"><a href="#none">정보수정</a></div>
                         <?php } ?>
                     </div>
                     <ul class="menuBox">
