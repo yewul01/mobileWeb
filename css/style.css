@@ -68,7 +68,7 @@ ol {
 #header {
     background: #fff;
     position: fixed;
-    z-index: 999999;
+    z-index: 999;
     top: 0;
     left: 0;
     right: 0;
@@ -85,8 +85,8 @@ ol {
 #navWrap {
     position: fixed;
     top: 0;
-    left: -100%;
-    width: 270px;
+    left: 0;
+    right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     z-index: 999;
@@ -104,7 +104,7 @@ ol {
 #header .nav_menu {
     position: absolute;
     left: 0; top: 0;
-    z-index: 99999999;
+    z-index: 999;
 }
 #header .nav_menu i {
     font-size: 28px;
@@ -293,7 +293,8 @@ ol {
 
 
 /* 이전페이지 */
-#content .prev i { font-size: 25px; position: relative; bottom: 7px; left: 8px; }
+#content .prev { position: relative; left: 8px; }
+#content .prev i { font-size: 25px; }
 #content h2 { 
     position: absolute; 
     top: -3%; 
@@ -478,6 +479,7 @@ ol {
 .boardGameStoreList .boardGameInfo {
     font-family: 'Do Hyeon', sans-serif;
     padding-top: 30px;
+    padding: 5px 0;
 }
 
 .boardGameStoreList .boardGameInfo strong {

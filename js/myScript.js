@@ -57,7 +57,7 @@
     var boardData;
     $.ajax({
       type:'GET',
-      url : data/boardStore.json,
+      url : 'data/boardStore.json',
       timeout:2000,
       beforeSend: function (xhr) {
         if (xhr.overrideMimeType) {
@@ -77,7 +77,7 @@
       $('#container').on('click', '.serch_wrap .board_game a', function(e){
         e.preventDefault()
         var url = this.href;
-        var board = $(this).attr('href');
+        var board = $(this).attr('class');
           $("#container > #content").remove();
           $("#container").load(url + " #content", function(){
             var boardCafe = '';

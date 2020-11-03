@@ -12,8 +12,7 @@ $num_match = mysqli_num_rows($result);
 if ( !$num_match ) {
     echo ("
         <script>
-            alert(''등록되지 않은 아이디입니다.);
-            history.go(-1)
+            alert(''등록되지 않은 아이디입니다.)
         </script>
     ");
     exit;
@@ -25,7 +24,7 @@ if ( !$num_match ) {
     if ($pass != $db_pass) {
         echo ("
             <script>
-                alert('비밀번호가 틀립니다.');
+                alert('비밀번호가 틀립니다.')
             </script>
         ");
         exit;
@@ -35,7 +34,7 @@ if ( !$num_match ) {
         $_SESSION['name'] = $row['name'];
         echo ("
             <script>
-                location.href = 'index.php';
+                location.href = 'index.php'
             </script>
         ");
     }
