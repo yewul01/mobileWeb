@@ -52,6 +52,7 @@ ol {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Do Hyeon', sans-serif;
     /* 각각 자식을 세로 가운데정렬, 가로 가운데정렬 */
 }
 
@@ -172,7 +173,8 @@ ol {
     padding: 8px;
     font-size: 13px;
 }
-#lnb .member .inBtn { position: relative; top: 100px; display: none; }
+#lnb .member .inBtn { position: relative; top: 100px; font-size: 13px; display: none; }
+
 
 
 /* nav구역 로그인 */
@@ -190,7 +192,7 @@ ol {
 /* nav구역 회원가입 */
 .joinContent fieldset { border: none; }
 .joinContent legend { display: none; }
-.joinContent #join_box { text-align: center; }
+.joinContent #join_box { text-align: center; margin: 30px 0; }
 .joinContent #join_box p { padding: 5px 0; }
 .joinContent #join_box label { text-align: left; display: block; padding-left: 17px; 
     padding-bottom: 5px; font-size: 14px; }
@@ -279,26 +281,20 @@ ol {
 #content {
     min-height: 459px;
     margin-top: 90px;
+    position: relative;
 }
 
 
 /* 이전페이지 */
-#content .contTit {
-    display: grid;
-    grid-template-columns: 40px auto;
-}
-
-#content .prev img {
-    background: #fff;
-}
-
-#content h2 {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
+#content .prev i { font-size: 25px; position: relative; left: 8px; }
+#content h2 { 
+    position: absolute; 
+    top: -3%; 
+    left: 50%; 
+    transform: translate(-50%);
+    font-size: 24px; 
     height: 50px;
-    line-height: 50px;
-    background: #fff;
+    line-height: 50px; 
 }
 
 
@@ -391,8 +387,8 @@ ol {
 }
 
 .storeContent ul {
-    display: grid;
-    grid-template-columns: 130px 130px;
+    display: flex;
+    flex-wrap: wrap;
     padding: 10px 10px;
 }
 
@@ -401,11 +397,13 @@ ol {
     margin: 5px;
     padding: 10px;
     border-radius: 5px;
+    flex: 250px;
 }
+.storeContent ul li a { display: block; }
 
 .storeContent .storeList {
     position: relative;
-    left: 40px;
+    top: 20px;
 }
 
 
