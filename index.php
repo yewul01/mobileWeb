@@ -13,15 +13,17 @@
 
 <body>
     <div id="wrap">
+
         <?php
 
             session_start();
-            if (isset($_SESSION['userid'])) {
+            if ( isset($_SESSION['userid']) ) {
                 $userid = $_SESSION['userid'];
-                $username = $_SESSION['username'];
+                $username = $_SESSION['name'];
             } else $userid = '';
 
         ?>
+
         <header id="header" class="lnb_menu">
             <div id="lnb_menu" class="nav_menu">
                 <a href="#"><i class="fas fa-bars"></i></a>
