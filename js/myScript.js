@@ -13,21 +13,22 @@
 
 
     // 전국 카페
-    var cafe1data;
+    var cafedata;
     $.ajax({
       type:'GET',
       url:'data/cafeStore.json',
+      timeout:2000,
       beforeSend: function (xhr) {
         if (xhr.overrideMimeType) {
           xhr.overrideMimeType("application/json");
         }
       },
     success : function(data){
-      cafe1data = data
+      cafedata = data
     
     },
-    error:function(xhr){
-      alert(xhr.status + '오류발생')
+    error:function(error){
+      alert(error.status + '오류발생')
     }
     })
     
@@ -39,11 +40,11 @@
           $("#container > #content").remove();
           $("#container").load(url + " #content", function(){
             var newContent = '';
-            for (var i in cafe1data[cafe]) {
-              newContent += `<li><div class="img"><img src="${cafe1data[cafe][i].photo}" alt=""></div>`
-              newContent += `<div class="storeInfo"><strong>${cafe1data[cafe][i].name}</strong>`
-              newContent += `<p><i class="far fa-thumbs-up"></i> ${cafe1data[cafe][i].recommend}</p>`
-              newContent += `<div class="location"><i class="fas fa-map-marker-alt"></i> ${cafe1data[cafe][i].location}</div></div></li>`
+            for (var i in cafedata[cafe]) {
+              newContent += `<li><div class="img"><img src="${cafedata[cafe][i].photo}" alt=""></div>`
+              newContent += `<div class="storeInfo"><strong>${cafedata[cafe][i].name}</strong>`
+              newContent += `<p><i class="far fa-thumbs-up"></i> ${cafedata[cafe][i].recommend}</p>`
+              newContent += `<div class="location"><i class="fas fa-map-marker-alt"></i> ${cafedata[cafe][i].location}</div></div></li>`
             }
             $('#content .part1StoreList').html(`<ul>${newContent}</ul>`)
           });
@@ -56,18 +57,19 @@
     var boardData;
     $.ajax({
       type:'GET',
-      url:'data/cafeStore.json',
+      url:'data/boardStore.json',
+      timeout:2000,
       beforeSend: function (xhr) {
         if (xhr.overrideMimeType) {
-          xhr.overrideMimeType("application/json");
+          xhr.overrideMimeType('application/json');
         }
       },
-    success : function(data){
-      boardData = data
+    success : function(data2){
+      boardData = data2
     
     },
-    error:function(xhr){
-      alert(xhr.status + '오류발생')
+    error:function(error2){
+      alert(error2.status + '오류발생')
     }
     })
     
@@ -75,18 +77,19 @@
       $('#container').on('click', '.serch_wrap .board_game a', function(e){
         e.preventDefault()
         var url = this.href;
-        var board = $(this).attr('class')
+        var board = $(this).attr('href');
           $("#container > #content").remove();
           $("#container").load(url + " #content", function(){
-            var newContent = '';
+            var boardCafe = '';
             for (var i in boardData[board]) {
-              newContent += `<li><div class="img"><img src="${boardData[board][i].photo}" alt=""></div>`
-              newContent += `<div class="boardGameInfo"><strong>${boardData[board][i].name}</strong>`
-              newContent += `<p class="time"><i class="far fa-clock"></i> ${boardData[board][i].time}</p>`
-              newContent += `<p class="cost"><i class="far fa-won-sign"></i> ${boardData[board][i].cost}<br></p>`
-              newContent += `<div class="location"><i class="fas fa-map-marker-alt"></i> ${boardData[board][i].location}</div></div></li>`
+              boardCafe += `<li><div class="img"><img src="${boardData[board][i].photo}" alt="보드게임 카페 레드버튼"></div>`
+              boardCafe += `<div class="boardGameInfo"><strong>${boardData[board][i].name}</strong>`
+              boardCafe += `<p class="time"><i class="far fa-clock"></i> ${boardData[board][i].time}</p>`
+              boardCafe += `<p class="cost"><i class="far fa-won-sign"></i> ${boardData[board][i].cost}<br></p>`
+              boardCafe += `<div class="location"><i class="fas fa-map-marker-alt"></i> ${boardData[board][i].location}</div></div></li>`
             }
-            $('#content .boardGameStoreList').html(`<ul>${newContent}</ul>`)
+            $('#content .boardGameStoreList').html(`<ul>${boardCafe}</ul>`)
+            return false;
           });
           
     })

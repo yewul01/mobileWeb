@@ -35,11 +35,12 @@
                     </div>
                     <div class="member">
                         <?php if(!$userid) { ?>
-                        <div class="loginBtn"><a href="login.html">로그인</a></div>
-                        <div class="joinBtn"><a href="join.html">회원가입</a></div>
+                        <div class="inBtn loginBtn"><a href="login.html">로그인</a></div>
+                        <div class="inBtn joinBtn"><a href="join.html">회원가입</a></div>
                         <?php } else { ?>
                         <div class="inBtn"><?php echo $userid ?>님 환영합니다.</div>
                         <div class="inBtn"><a href="logout.php">로그아웃</a></div>
+                        <div class="inBtn"><a href="#none">정보수정</a></div>
                         <?php } ?>
                     </div>
                     <ul class="menuBox">
