@@ -68,7 +68,7 @@ ol {
 #header {
     background: #fff;
     position: fixed;
-    z-index: 99999999;
+    z-index: 999999;
     top: 0;
     left: 0;
     right: 0;
@@ -101,14 +101,15 @@ ol {
     width: 200px;
     background: #fff;
 }
-
+#header .nav_menu {
+    position: absolute;
+    left: 0; top: 0;
+    z-index: 99999999;
+}
 #header .nav_menu i {
     font-size: 28px;
     padding: 10px;
     color: #396285;
-    position: absolute;
-    left: 0; top: 0;
-    z-index: 99999999;
 }
 
 #navWrap #lnb .nav_logo {
