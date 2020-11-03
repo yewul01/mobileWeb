@@ -57,7 +57,7 @@
     var boardData;
     $.ajax({
       type:'GET',
-      url:'data/boardStore.json',
+      url : data/boardStore.json,
       timeout:2000,
       beforeSend: function (xhr) {
         if (xhr.overrideMimeType) {
