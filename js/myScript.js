@@ -82,7 +82,7 @@
           $("#container").load(url + " #content", function(){
             var boardCafe = '';
             for (var i in boardData[board]) {
-              boardCafe += `<li><div class="img"><img src="${boardData[board][i].photo}" alt="보드게임 카페 레드버튼"></div>`
+              boardCafe += `<li><div class="img"><img src="${boardData[board][i].photo}" alt=""></div>`
               boardCafe += `<div class="boardGameInfo"><strong>${boardData[board][i].name}</strong>`
               boardCafe += `<p class="time"><i class="far fa-clock"></i> ${boardData[board][i].time}</p>`
               boardCafe += `<p class="cost"><i class="far fa-won-sign"></i> ${boardData[board][i].cost}<br></p>`

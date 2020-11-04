@@ -8,11 +8,18 @@
             "photo":"images/board_game1.jpg"
         },
         {
-            "name":"Red Button",
+            "name":"Heror BoardGame Cafe",
             "time":"평일 13:00 - 1:00",
-            "cost":"1인 1시간(평일) - 2,400원<br><span>1인 시간(주말및공휴일) - 3,000원",
-            "location":"위치 : 경기 부천시 부일로 459 401호",
-            "photo":"images/board_game1.jpg"
+            "cost":"1시간 - 2,400원",
+            "location":"위치 : 부천시 석천로 177번길 20 3층",
+            "photo":"images/hero.jpg"
+        },
+        {
+            "name":"Davinci BoardGame Cafe",
+            "time":"매일 13:00 - 23:30 연중 무휴",
+            "cost":"청소년 1시간(평일) - 2,000원, 기본요금제(1시간) - 3,000원",
+            "location":"위치 : 서울 강남구 강남대로 102길 14 장연빌딩 3층",
+            "photo":"images/davinci.jpg"
         }
     ]
     

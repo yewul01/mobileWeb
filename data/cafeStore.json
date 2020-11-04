@@ -14,10 +14,40 @@
             "photo":"images/RACHEL'S KITCHEN.jpg"
         },
         {
-            "name":"Wonjong Dabang",
+            "name":"원종다방",
             "recommend":"추천메뉴 : 다방브런치, 머랭쿠키",
             "location":"오시는길 : 경기 부천시 삼작로380번길 10 1층",
             "photo":"images/wonjongdabang.jpg"
+        },
+        {
+            "name":"어여쁘리",
+            "recommend":"추천메뉴 : 겉바속촉 수제와플(★)",
+            "location":"오시는길 : 경기 부천시 석천로 177번길 29",
+            "photo":"images/어여쁘리.jpg"
+        },
+        {
+            "name":"맛남살롱",
+            "recommend":"추천메뉴 : 치즈케이크, 복숭아 범벅",
+            "location":"오시는길 : 경기 부천시 석천로 184번길 12",
+            "photo":"images/맛남살롱.jpg"
+        },
+        {
+            "name":"Toacoc",
+            "recommend":"추천메뉴 : 크로플, 누텔라 크로플(★)",
+            "location":"오시는길 : 경기 부천시 석천로 184번길 28",
+            "photo":"images/toacoc.jpg"
+        },
+        {
+            "name":"ANDREW",
+            "recommend":"추천메뉴 : 에그 베네딕트(★), 앤드류 브런치",
+            "location":"오시는길 : 경기 부천시 신흥로 238번길 28",
+            "photo":"images/andrew.jpg"
+        },
+        {
+            "name":"공개정원",
+            "recommend":"추천메뉴 : 레이스 딸기케이크(★), 오레오 케이크(★)",
+            "location":"오시는길 : 경기 부천시 장말로 362번길 31",
+            "photo":"images/공개정원.jpg"
         }
      ],
     "cafe2" : [
@@ -55,5 +85,20 @@
             "location":"오시는길 : 강원 강릉시 창해로14번길 48-1",
             "photo":"images/KIKRUS.jpg"
         }
+    ],
+    "cafe5" : [
+        {
+            "name":"Miel",
+            "recommend":"추천메뉴 : 열매케이크 딸기(★), 크로플(★)",
+            "location":"오시는길 : 서울 관악구 관악로 16길 38 2층",
+            "photo":"images/miel.jpg"
+        },
+        {
+            "name":"Treeanon",
+            "recommend":"추천메뉴 : 애프터눈 티세트(★)",
+            "location":"오시는길 : 서울 강남구 학동로 59길 43",
+            "photo":"images/treeanon.jpg"
+        }
+
     ]
 }

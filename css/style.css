@@ -415,7 +415,7 @@ ol {
 }
 
 
-/* 파주 매장 리스트(part3.html) */
+/* 카페 리스트(part1.html, part2.html, ...) */
 .part1Content {
     background: #fff;
 }
@@ -444,7 +444,8 @@ ol {
     font-size: 20px;
     padding: 5px;
     color: rgb(89, 0, 255);
-    font-family: 'Staatliches', cursive;
+    font-family: 'Do Hyeon', sans-serif;
+    
 }
 
 .part1StoreList .storeInfo p {
