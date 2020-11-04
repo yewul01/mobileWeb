@@ -92,7 +92,50 @@
             return false;
           });
           
+      })
+
+
+    // 방탈출 카페
+    var escapeData;
+    $.ajax({
+      type:'GET',
+      url : 'data/escapeStore.json',
+      timeout:2000,
+      beforeSend: function (xhr) {
+        if (xhr.overrideMimeType) {
+          xhr.overrideMimeType('application/json');
+        }
+      },
+    success : function(data3){
+      escapeData = data3
+    
+    },
+    error:function(error3){
+      alert(error3.status + '오류발생')
+    }
     })
+    
+    
+      $('#container').on('click', '.serch_wrap .escape_room a', function(e){
+        e.preventDefault()
+        var url = this.href;
+        var escape = $(this).attr('class');
+          $("#container > #content").remove();
+          $("#container").load(url + " #content", function(){
+            var escapeCafe = '';
+            for (var i in escapeData[escape]) {
+              escapeCafe += `<li><div class="img"><img src="${escapeData[escape][i].photo}" alt=""></div>`
+              escapeCafe += `<div class="escapeRoomInfo"><strong>${escapeData[escape][i].name}</strong>`
+              escapeCafe += `<p class="cost"><i class="far fa-won-sign"></i> ${escapeData[escape][i].cost}<br></p>`
+              escapeCafe += `<div class="location"><i class="fas fa-map-marker-alt"></i> ${escapeData[escape][i].location}</div></div></li>`
+            }
+            $('#content .escapeRoomStoreList').html(`<ul>${escapeCafe}</ul>`)
+            return false;
+          });
+          
+      })
+
+
 
     // 햄버거 버튼 클릭하면 네비박스 열기
     $('#lnb_menu').on('click',function(){

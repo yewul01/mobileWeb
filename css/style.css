@@ -457,7 +457,7 @@ ol {
     padding-bottom: 5px;
 }
 
-/* 보드게임 페이지 스타일 */
+/* 보드게임카페 페이지 스타일 */
 .boardGameContent {
     background: #fff;
 }
@@ -498,6 +498,49 @@ ol {
     font-size: 15px;
     padding-bottom: 5px;
 }
+
+/* 방탈출카페 페이지 스타일 */
+.escapeRoomContent {
+    background: #fff;
+}
+
+.escapeRoomStoreList {
+    padding: 10px;
+    text-align: center;
+}
+
+.escapeRoomStoreList ul li {
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.escapeRoomStoreList ul li img {
+    width: 92vw;
+    height: auto;
+}
+
+.escapeRoomStoreList .escapeRoomInfo {
+    font-family: 'Do Hyeon', sans-serif;
+    padding-top: 30px;
+    padding: 5px 0;
+}
+
+.escapeRoomStoreList .escapeRoomInfo strong {
+    display: block;
+    font-size: 20px;
+    color: rgb(89, 0, 255);
+    font-family: 'Staatliches', cursive;
+}
+
+.escapeRoomStoreList .escapeRoomInfo .time {
+    padding-top: 15px;
+}
+
+.escapeRoomStoreList .escapeRoomInfo .location {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
 
 /* 공지사항 */
 .noticeContent #notice-box {
