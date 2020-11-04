@@ -293,16 +293,14 @@ ol {
 
 
 /* 이전페이지 */
-#content .prev { position: relative; left: 8px; }
+#content .prev { position: relative; left: 8px; top: 5px; }
 #content .prev i { font-size: 25px; }
 #content h2 { 
     position: absolute; 
-    top: -3%; 
+    top: 0; 
     left: 50%; 
     transform: translate(-50%);
     font-size: 24px; 
-    height: 50px;
-    line-height: 50px; 
 }
 
 
