@@ -311,7 +311,7 @@ html { background: #fff; }
     top: 80px;
     height: 406px;
     display: grid;
-    grid-template-rows: 66.66% 33.33%
+    grid-template-rows: 93% 7%
 }
 
 .mainContent .setArea {
