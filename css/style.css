@@ -30,6 +30,7 @@ ol {
     overflow: hidden;
     text-indent: -9999px;
 }
+html { background: #fff; }
 
 
 /* 태블릿을 세로로 세웠을 때 가로의 넓이 */
@@ -208,9 +209,7 @@ ol {
 
 
 /* 로고 위치 */
-#header h1 {  text-align: center;
-    /* position: absolute; left: 50%; transform: translate(-50%); */
- }
+#header h1 {  text-align: center; background: #fff; }
 
 
 /* 헤더 검색창 */
@@ -289,6 +288,7 @@ ol {
     min-height: 459px;
     margin-top: 90px;
     position: relative;
+    background: #fff;
 }
 
 
@@ -375,6 +375,7 @@ ol {
 /* 오시는길(map.html) */
 /* iframe은 기본성격이 inline-block */
 .mapContent iframe {
+    padding-top: 30px;
     width: 100%;
     height: 500px;
     margin: 0px auto 30px;
@@ -426,6 +427,8 @@ ol {
 .part1StoreList ul li {
     display: grid;
     grid-template-rows: 1fr auto;
+    margin: 30px 0;
+    background: #fff4be;
 }
 
 .part1StoreList ul li img {
@@ -468,6 +471,8 @@ ol {
 .boardGameStoreList ul li {
     display: grid;
     grid-template-rows: 1fr auto;
+    margin: 30px 0;
+    background: #fff4be;
 }
 
 .boardGameStoreList ul li img {
@@ -510,6 +515,8 @@ ol {
 .escapeRoomStoreList ul li {
     display: grid;
     grid-template-rows: 1fr auto;
+    margin: 30px 0;
+    background: #fff4be;
 }
 
 .escapeRoomStoreList ul li img {
@@ -665,3 +672,28 @@ ol {
     border-top: 1px solid #5c5c5c;
     padding: 15px 0 10px;
 }
+
+
+/* 개인정보 처리방침 */
+.privacy-box .privacy-icon { 
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px; 
+}
+.privacy-box .privacy-icon img { width: 35%; }
+.privacy-box .privacy-icon p { font-size: 16px; }
+.privacy-box .privacy-icon span { color: #2288ff; }
+.privacy-box .privacy-icon p:nth-of-type(2) { 
+    font-size: 13px; 
+    border: 1px solid #000; 
+    display: inline-block; 
+    background: #ddd; 
+    border-radius: 3px; 
+    position: relative; 
+    bottom: 40px;
+}
+.privacy-box .privacy-text1 { padding: 0 15px; }
+.privacy-box .privacy-text1 > p { font-size: 12px; }
+.privacy-box .privacy-text2 { padding: 0 15px; margin: 50px 0 70px; }
+.privacy-box .privacy-text2 h3 { font-size: 16px; }
+.privacy-box .privacy-text2 p { font-size: 13px; padding: 15px 0; }
