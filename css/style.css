@@ -215,7 +215,7 @@ html { background: #fff; }
 /* 헤더 검색창 */
 .search-open {
     position: absolute;
-    right: 7px;
+    right: 10px;
     top: 0;
     font-size: 30px;
     color: #396285;
@@ -286,7 +286,7 @@ html { background: #fff; }
 /* 모든 페이지 컨텐트박스 최소높이 */
 #content {
     min-height: 459px;
-    margin-top: 90px;
+    margin-top: 50px;
     position: relative;
     background: #fff;
 }
@@ -311,7 +311,7 @@ html { background: #fff; }
     top: 80px;
     height: 406px;
     display: grid;
-    grid-template-rows: 93% 7%
+    grid-template-rows: 94% auto;
 }
 
 .mainContent .setArea {
