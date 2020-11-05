@@ -336,7 +336,7 @@ html { background: #fff; }
 
 .mainContent .setArea .cafe a {
     position: relative;
-    top: 120px;
+    top: 45%;
 }
 
 .mainContent .setArea i {
@@ -353,7 +353,7 @@ html { background: #fff; }
 
 .mainContent .setArea .board_game a {
     position: relative;
-    top: 50px;
+    top: 40%;
 }
 
 .mainContent .setArea .escape_room {
@@ -362,7 +362,7 @@ html { background: #fff; }
 
 .mainContent .setArea .escape_room a {
     position: relative;
-    top: 50px;
+    top: 40%;
 }
 
 .mainContent #step_area a {
