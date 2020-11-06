@@ -12,7 +12,7 @@ $num_match = mysqli_num_rows($result);
 if ( !$num_match ) {
     echo ("
         <script>
-            alert(''등록되지 않은 아이디입니다.)
+            alert('등록되지 않은 아이디입니다.')
         </script>
     ");
     exit;

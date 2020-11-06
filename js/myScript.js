@@ -224,4 +224,9 @@
     }
 
     document.login_form.submit()
+
+    function id_check() {
+      // window.open("url", "창제목", "옶션값")
+      window.open("id_check.php?id="+document.member_form.id.value, "", "width=350, height-200, left=300, top=300, scrollbars=no, resizeable=yes")
+    }
   }
