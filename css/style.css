@@ -286,7 +286,7 @@ html { background: #fff; }
 /* 모든 페이지 컨텐트박스 최소높이 */
 #content {
     min-height: 459px;
-    margin-top: 50px;
+    margin-bottom: 50px;
     position: relative;
     background: #fff;
 }
@@ -373,22 +373,24 @@ html { background: #fff; }
 
 /* 메인 슬라이드 텍스트 */
 .slide .Inner_text {
-    position: relative; left: 5%; top: 25%;
     text-align: left;
     color: #fff;
     font-family: sans-serif;
 }
 
-.slide .Inner_text h2 {
+.slide .Inner_text > h2 {
     font-size: 15px;
     font-weight: 200;
     font-family: sans-serif;
 }
 
-.slide .Inner_text p {
+.slide .Inner_text > p {
     font-size: 12px;
     opacity: 0.8;
 }
+
+.main-slide-text { width: 100%; position: relative; top: 0; }
+.main-slide-text > h2 { font-size: 18px; }
 
 
 /* 메인페이지 */
