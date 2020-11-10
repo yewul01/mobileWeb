@@ -1,5 +1,31 @@
 (function ($) {
 
+  // 메인슬라이드
+  $('.slide-inner').slick({
+    autoplay: true,
+    dots: true,
+    autoplaySpeed: 2000,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    pauseOnHover: false,
+    pauseOnDotsHover: false,
+    pauseOnFocus: true,
+    cssEase: 'ease',
+    draggable: true,
+    fade: false,
+    arrows: false,
+    prevArrow: '<button class="prev arr"><i class="fas fa-angle-left"></i></button>',
+    nextArrow: '<button class="next arr"><i class="fas fa-angle-right"></i></button>',
+    responsive: [{
+        breakpoint: 801,
+        settings: {
+            arrows: false,
+            fade: true,
+        }
+    }]
+})
+
     // 로고를 클릭하면 main.html의 #content를 load()
     $('#wrap')
     .on("click", "#header .menuBox a,#footer .privacy a, #footer .quickMenu a, .mainContent #step_area a, .contTit .prev a, .member .loginBtn a, .member .joinBtn a"

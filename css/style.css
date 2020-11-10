@@ -302,7 +302,93 @@ html { background: #fff; }
     transform: translate(-50%);
     font-size: 24px; 
 }
+/* 메인슬라이드 */
+.slide {
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
 
+.slideInner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.slide .slideInner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+}
+
+.slide1 {
+    background-image: url(../images/mobile-main-1.jpg);
+}
+
+.slide2 {
+    background-image: url(../images/mobile-main-1.jpg);
+}
+
+.slide3 {
+    background-image: url(../images/mobile-main-1.jpg);
+}
+
+/* 메인 슬라이드 도트버튼 */
+.slide-outer {
+    position: relative;
+}
+
+.slide-outer .slick-dots {
+    position: absolute;
+    bottom: -8px;
+    width: 100%;
+    text-align: center;
+}
+
+.slide-outer .slick-dots li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: rgba(0,0,0,0.6);
+    opacity: 0.5;
+    border-radius: 50%;
+    margin: 0 8.7px;
+}
+
+.slide-outer .slick-dots li button {
+    background: none;
+    text-indent: -999px;
+}
+
+.slide-outer .slick-dots li.slick-active {
+    background: #fff;
+}
+
+/* 메인 슬라이드 텍스트 */
+.slide .Inner_text {
+    position: relative; left: 5%; top: 25%;
+    text-align: left;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.slide .Inner_text h2 {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.slide .Inner_text p {
+    font-size: 12px;
+    opacity: 0.8;
+}
 
 
 /* 메인페이지 */
