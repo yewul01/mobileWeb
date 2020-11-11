@@ -405,6 +405,7 @@ html { background: #fff; }
     font-size: 23px;
 }
 
+/* 메인페이지 키워드박스 문구 */
 #content .main-search-box { 
     width: 100%;
     position: relative;
@@ -482,6 +483,9 @@ html { background: #fff; }
     height: 100%;
     text-align: center
 }
+
+.main-search-box form { position: relative; top: 10%; }
+.main-search-box legend { display: none; }
 
 /* 오시는길(map.html) */
 /* iframe은 기본성격이 inline-block */
