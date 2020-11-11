@@ -389,70 +389,91 @@ html { background: #fff; }
 .slide .Inner_text p {
     font-size: 12px;
     opacity: 0.8;
+    padding-top: 10px;
 }
 
-.main-slide-text { width: 100%; position: relative; top: 0; }
-.main-slide-text > h2 { font-size: 18px; }
+/* 메인페이지 카테고리 문구 */
+#content .main-genres { 
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+}
+#content .main-genres h2 { 
+    width: 100%; 
+    font-weight: 300;
+    font-size: 23px;
+}
 
+#content .main-search-box { 
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 15%;
+}
+
+#content .main-search-box h2 {
+    width: 100%;
+    font-weight: 300;
+    font-size: 23px;
+}
 
 /* 메인페이지 */
 .mainContent #step_area {
     position: relative;
-    top: 80px;
-    height: 406px;
+    margin: 0 3%;
+    top: 40px;
+    height: 100px;
     display: grid;
-    grid-template-rows: 94% auto;
+    grid-template-rows: 100% auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
 .mainContent .setArea {
     height: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
 }
 
 .mainContent .setArea a {
-    color: #fff;
+    color: #000;
     font-family: 'Do Hyeon', sans-serif;
-    font-size: 24px;
+    font-size: 15px;
 }
 
 .mainContent .setArea>div {
     height: 100%;
+    width: 100%;
 }
 
 .mainContent .setArea .cafe {
-    background: #2282ff;
-}
-
-.mainContent .setArea .cafe a {
-    position: relative;
-    top: 45%;
+    padding-top: 6%;
+    background: #fff;
+    height: 90%;
+    width: 80%;
+    flex: 1;
 }
 
 .mainContent .setArea i {
-    padding-right: 10px;
-}
-
-.mainContent .setArea .serch_wrap>div {
-    height: 50%;
+    padding-bottom: 5px;
+    display: block;
 }
 
 .mainContent .setArea .board_game {
-    background: #4796d3;
-}
-
-.mainContent .setArea .board_game a {
-    position: relative;
-    top: 40%;
+    padding-top: 6%;
+    background: #fff;
+    height: 90%;
+    width: 80%;
+    flex: 1;
 }
 
 .mainContent .setArea .escape_room {
-    background: #87c92b;
-}
-
-.mainContent .setArea .escape_room a {
-    position: relative;
-    top: 40%;
+    padding-top: 6%;
+    background: #fff;
+    height: 90%;
+    width: 80%;
+    flex: 1;
 }
 
 .mainContent #step_area a {
