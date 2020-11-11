@@ -373,18 +373,20 @@ html { background: #fff; }
 
 /* 메인 슬라이드 텍스트 */
 .slide .Inner_text {
+    position: relative; top: 20%; left: 8%;
     text-align: left;
     color: #fff;
     font-family: sans-serif;
 }
 
-.slide .Inner_text > h2 {
-    font-size: 15px;
+.slide .Inner_text h3 {
+    font-size: 21px;
     font-weight: 200;
     font-family: sans-serif;
+    opacity: 0.8;
 }
 
-.slide .Inner_text > p {
+.slide .Inner_text p {
     font-size: 12px;
     opacity: 0.8;
 }
