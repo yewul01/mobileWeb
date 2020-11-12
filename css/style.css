@@ -32,7 +32,10 @@ ol {
     overflow: hidden;
     text-indent: -9999px;
 }
-html { background: #fff; }
+
+html {
+    background: #fff;
+}
 
 
 /* 태블릿을 세로로 세웠을 때 가로의 넓이 */
@@ -104,11 +107,14 @@ html { background: #fff; }
     width: 200px;
     background: #fff;
 }
+
 #header .nav_menu {
     position: absolute;
-    left: 0; top: 0;
+    left: 0;
+    top: 0;
     z-index: 999;
 }
+
 #header .nav_menu i {
     font-size: 28px;
     padding: 10px;
@@ -149,7 +155,10 @@ html { background: #fff; }
     left: 163px;
 }
 
-#lnb .member { text-align: center; }
+#lnb .member {
+    text-align: center;
+}
+
 #lnb .member .loginBtn {
     position: relative;
     top: 75px;
@@ -165,6 +174,7 @@ html { background: #fff; }
     padding: 8px 13px;
     font-size: 13px;
 }
+
 #lnb .member .joinBtn {
     position: relative;
     top: 75px;
@@ -180,38 +190,117 @@ html { background: #fff; }
     padding: 8px;
     font-size: 13px;
 }
-#lnb .member .inBtn { position: relative; top: 100px; font-size: 13px; display: none; }
+
+#lnb .member .inBtn {
+    position: relative;
+    top: 100px;
+    font-size: 13px;
+    display: none;
+}
 
 
 
 /* nav구역 로그인 */
-.loginContent fieldset { border: none; }
-.loginContent legend { display: none; }
-.loginContent #login_box { text-align: center; position: relative; top: 70px; }
-.loginContent #login_box input { padding-left: 8px; padding: 7px; width: 90%; }
-.loginContent #login_box p { padding: 5px 0; }
-.loginContent #login_box button { width: 90%; padding: 10px 0; 
-    background: #2282ff; border: none; border-radius: 4px;
-    margin-top: 8px; color: #fff; font-size: 16px; }
-.loginContent #login_box .find-idpw { margin-top: 23px; padding: 3px; border-top: 1px solid #ccc; }
-.loginContent #login_box .find-idpw a { font-size: 12px; padding: 0 3px; }
+.loginContent fieldset {
+    border: none;
+}
+
+.loginContent legend {
+    display: none;
+}
+
+.loginContent #login_box {
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+.loginContent #login_box input {
+    padding-left: 8px;
+    padding: 7px;
+    border-radius: 4px;
+    background: #f5f6f7;
+    width: 90%;
+}
+
+.loginContent #login_box p {
+    padding: 5px 0;
+}
+
+.loginContent #login_box button {
+    width: 90%;
+    padding: 10px 0;
+    background: #2282ff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 8px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginContent #login_box .find-idpw {
+    margin-top: 23px;
+    padding: 3px;
+    border-top: 1px solid #ccc;
+}
+
+.loginContent #login_box .find-idpw a {
+    font-size: 12px;
+    padding: 0 3px;
+}
 
 /* nav구역 회원가입 */
-.joinContent fieldset { border: none; }
-.joinContent legend { display: none; }
-.joinContent #join_box { text-align: center; margin: 30px 0; }
-.joinContent #join_box p { padding: 5px 0; }
-.joinContent #join_box label { text-align: left; display: block; padding-left: 17px; 
-    padding-bottom: 5px; font-size: 14px; }
-.joinContent #join_box input { padding-left: 8px; padding: 5px; width: 90%; }
-.joinContent #join_box button { width: 90%; background: #2282ff; border: none; 
-    border-radius: 4px; padding: 12px 0; margin-top: 13px; color: #fff; }
+.joinContent fieldset {
+    border: none;
+}
+
+.joinContent legend {
+    display: none;
+}
+
+.joinContent #join_box {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.joinContent #join_box p {
+    padding: 5px 0;
+}
+
+.joinContent #join_box label {
+    text-align: left;
+    display: block;
+    padding-left: 17px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+.joinContent #join_box input {
+    padding-left: 8px;
+    padding: 5px;
+    width: 90%;
+    background: #f5f6f7;
+    border-radius: 4px;
+}
+
+.joinContent #join_box button {
+    width: 90%;
+    background: #2282ff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 0;
+    margin-top: 13px;
+    color: #fff;
+}
 
 
 
 
 /* 로고 위치 */
-#header h1 {  text-align: center; background: #fff; }
+#header h1 {
+    text-align: center;
+    background: #fff;
+}
 
 
 /* 헤더 검색창 */
@@ -295,15 +384,24 @@ html { background: #fff; }
 
 
 /* 이전페이지 */
-#content .prev { position: relative; left: 8px; top: 5px; }
-#content .prev i { font-size: 25px; }
-#content h2 { 
-    position: absolute; 
-    top: 0; 
-    left: 50%; 
-    transform: translate(-50%);
-    font-size: 24px; 
+#content .prev {
+    position: relative;
+    left: 8px;
+    top: 5px;
 }
+
+#content .prev i {
+    font-size: 25px;
+}
+
+.prev>h2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 24px;
+}
+
 /* 메인슬라이드 */
 .slide {
     margin-top: 80px;
@@ -335,11 +433,11 @@ html { background: #fff; }
 }
 
 .slide2 {
-    background-image: url(../images/mobile-main-1.jpg);
+    background-image: url(../images/mobile-main-2.jpg);
 }
 
 .slide3 {
-    background-image: url(../images/mobile-main-1.jpg);
+    background-image: url(../images/mobile-main-2.jpg);
 }
 
 /* 메인 슬라이드 도트버튼 */
@@ -358,7 +456,7 @@ html { background: #fff; }
     display: inline-block;
     width: 8px;
     height: 8px;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     opacity: 0.5;
     border-radius: 50%;
     margin: 0 8.7px;
@@ -375,7 +473,9 @@ html { background: #fff; }
 
 /* 메인 슬라이드 텍스트 */
 .slide .Inner_text {
-    position: relative; top: 20%; left: 8%;
+    position: relative;
+    top: 20%;
+    left: 8%;
     text-align: left;
     color: #fff;
     font-family: sans-serif;
@@ -395,13 +495,14 @@ html { background: #fff; }
 }
 
 /* 메인페이지 카테고리 */
-#content .main-genres { 
+#content .main-genres {
     position: relative;
     text-align: center;
     margin-top: 10%;
 }
-#content .main-genres h2 { 
-    width: 100%; 
+
+#content .main-genres h2 {
+    width: 100%;
     font-weight: 300;
     font-size: 21px;
 }
@@ -412,14 +513,16 @@ html { background: #fff; }
     margin-top: 18%;
     text-align: center;
 }
-#content .main-keyword h2 { 
+
+#content .main-keyword h2 {
     width: 100%;
     position: relative;
     top: 10%;
     font-weight: 300;
     font-size: 21px;
 }
-#content .main-keyword p { 
+
+#content .main-keyword p {
     position: relative;
     left: 3.5%;
     top: 10px;
@@ -431,7 +534,7 @@ html { background: #fff; }
     border: 1px solid #ddd;
     border-radius: 4px;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2)
- }
+}
 
 /* 메인페이지 */
 .mainContent #step_area {
@@ -533,7 +636,10 @@ html { background: #fff; }
     border-radius: 5px;
     flex: 250px;
 }
-.storeContent ul li a { display: block; }
+
+.storeContent ul li a {
+    display: block;
+}
 
 .storeContent .storeList {
     position: relative;
@@ -573,7 +679,7 @@ html { background: #fff; }
     padding: 5px;
     color: rgb(89, 0, 255);
     font-family: 'Do Hyeon', sans-serif;
-    
+
 }
 
 .part1StoreList .storeInfo p {
@@ -715,6 +821,11 @@ html { background: #fff; }
     padding: 0 3px;
 }
 
+/* 메인 키워드입력창 */
+.sub-key-box { position: relative; top: 20px; left: 3%; }
+.sub-key-box .key-text h2 { color: #396285; }
+.sub-key-box .key-text h2:nth-of-type(2) { color: #000; }
+
 
 
 /* 푸터구역 */
@@ -802,25 +913,52 @@ html { background: #fff; }
 
 
 /* 개인정보 처리방침 */
-.privacy-box .privacy-icon { 
+.privacy-box .privacy-icon {
     text-align: center;
     margin-top: 30px;
-    font-size: 60px; 
+    font-size: 60px;
 }
-.privacy-box .privacy-icon img { width: 35%; }
-.privacy-box .privacy-icon p { font-size: 16px; }
-.privacy-box .privacy-icon span { color: #2288ff; }
-.privacy-box .privacy-icon p:nth-of-type(2) { 
-    font-size: 13px; 
-    border: 1px solid #000; 
-    display: inline-block; 
-    background: #ddd; 
-    border-radius: 3px; 
-    position: relative; 
+
+.privacy-box .privacy-icon img {
+    width: 35%;
+}
+
+.privacy-box .privacy-icon p {
+    font-size: 16px;
+}
+
+.privacy-box .privacy-icon span {
+    color: #2288ff;
+}
+
+.privacy-box .privacy-icon p:nth-of-type(2) {
+    font-size: 13px;
+    border: 1px solid #000;
+    display: inline-block;
+    background: #ddd;
+    border-radius: 3px;
+    position: relative;
     bottom: 40px;
 }
-.privacy-box .privacy-text1 { padding: 0 15px; }
-.privacy-box .privacy-text1 > p { font-size: 12px; }
-.privacy-box .privacy-text2 { padding: 0 15px; margin: 50px 0 70px; }
-.privacy-box .privacy-text2 h3 { font-size: 16px; }
-.privacy-box .privacy-text2 p { font-size: 13px; padding: 15px 0; }
+
+.privacy-box .privacy-text1 {
+    padding: 0 15px;
+}
+
+.privacy-box .privacy-text1>p {
+    font-size: 12px;
+}
+
+.privacy-box .privacy-text2 {
+    padding: 0 15px;
+    margin: 50px 0 70px;
+}
+
+.privacy-box .privacy-text2 h3 {
+    font-size: 16px;
+}
+
+.privacy-box .privacy-text2 p {
+    font-size: 13px;
+    padding: 15px 0;
+}
