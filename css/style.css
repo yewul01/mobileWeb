@@ -822,9 +822,14 @@ html {
 }
 
 /* 메인 키워드입력창 */
-.sub-key-box { position: relative; top: 20px; left: 3%; }
-.sub-key-box .key-text h2 { color: #396285; }
-.sub-key-box .key-text h2:nth-of-type(2) { color: #000; }
+.sub-key-box { 
+    position: relative;
+    top: 20px;
+    left: 3%;
+    font-size: 20px;
+}
+.sub-key-box .key-text > h2 { color: #396285; }
+.sub-key-box .key-text > h2:nth-of-type(2) { color: #000; }
 
 
 
