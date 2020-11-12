@@ -187,6 +187,9 @@
     return false;
   })
 
+  // 키워드페이지 인원Bar
+ 
+
       
   })(jQuery);
 
