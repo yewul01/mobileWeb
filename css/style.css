@@ -394,7 +394,7 @@ html { background: #fff; }
     padding-top: 10px;
 }
 
-/* 메인페이지 카테고리 문구 */
+/* 메인페이지 카테고리 */
 #content .main-genres { 
     position: relative;
     text-align: center;
@@ -406,7 +406,7 @@ html { background: #fff; }
     font-size: 21px;
 }
 
-/* 메인페이지 키워드박스 문구 */
+/* 메인페이지 키워드박스 */
 #content .main-keyword {
     position: relative;
     margin-top: 18%;
@@ -426,10 +426,11 @@ html { background: #fff; }
     width: 93%;
     text-align: center;
     padding: 20px 0;
-    color: #ddd;
+    color: rgb(122, 122, 122);
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2)
  }
 
 /* 메인페이지 */
@@ -496,28 +497,6 @@ html { background: #fff; }
     height: 100%;
     text-align: center
 }
-
-/* 메인 키워드 검색창 */
-/* .main-search-box { position: relative; }
-.main-search-box .search-content { 
-    position: absolute; 
-    left: 50%; 
-    transform: translate(-50%);
-    padding-top: 30px;
-    
-}
-.main-search-box .search-content {
-    position: relative;
-    top: 10%;
-    width: 90%; 
-    text-align: center;
-    border: 1px solid #ddd;
-}
-.main-search-box .search-content input {
-    background: none;
-    width: 90%;
-    height: 40px;
-} */
 
 
 /* 오시는길(map.html) */
