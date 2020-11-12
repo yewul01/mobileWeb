@@ -368,7 +368,7 @@ html {
     font-size: 23px;
     color: #000;
     position: absolute;
-    top: 60px;
+    top: 80px;
     right: 13px;
 }
 
@@ -828,8 +828,8 @@ html {
     left: 3%;
     font-size: 20px;
 }
-.sub-key-box .key-text > h2 { color: #396285; }
-.sub-key-box .key-text > h2:nth-of-type(2) { color: #000; }
+.sub-key-box .key-text h2 { color: #396285;  }
+.sub-key-box .key-text h2:nth-of-type(2) { color: #000; }
 
 
 
