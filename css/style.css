@@ -849,7 +849,8 @@ html {
     font-size: 15px;
 }
 .sub-key-box .personnel { padding-top: 30px; }
-.sub-key-box .checkBar {  }
+.sub-key-box .checkBar .range { width: 90%; }
+.sub-key-box .range-labels { display: inline-block; }
 
 
 
