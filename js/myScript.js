@@ -100,7 +100,7 @@
     })
     
     
-      $('#container').on('click', '.serch_wrap .board_game a', function(e){
+      $('#container').on('click', '.setArea .board_game a', function(e){
         e.preventDefault()
         var url = this.href;
         var board = $(this).attr('class');
@@ -142,7 +142,7 @@
     })
     
     
-      $('#container').on('click', '.serch_wrap .escape_room a', function(e){
+      $('#container').on('click', '.setArea .escape_room a', function(e){
         e.preventDefault()
         var url = this.href;
         var escape = $(this).attr('class');

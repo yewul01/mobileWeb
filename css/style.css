@@ -1,6 +1,8 @@
 @charset "utf";
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url("reset.css");
+@import url("slick.css");
 
 * {
     padding: 0;
@@ -285,8 +287,8 @@ html { background: #fff; }
 
 /* 모든 페이지 컨텐트박스 최소높이 */
 #content {
-    min-height: 459px;
-    margin-bottom: 50px;
+    min-height: 600px;
+    margin-top: 50px;
     position: relative;
     background: #fff;
 }
@@ -394,7 +396,6 @@ html { background: #fff; }
 
 /* 메인페이지 카테고리 문구 */
 #content .main-genres { 
-    width: 100%;
     position: relative;
     text-align: center;
     margin-top: 10%;
@@ -402,22 +403,34 @@ html { background: #fff; }
 #content .main-genres h2 { 
     width: 100%; 
     font-weight: 300;
-    font-size: 23px;
+    font-size: 21px;
 }
 
 /* 메인페이지 키워드박스 문구 */
-#content .main-search-box { 
+#content .main-keyword {
+    position: relative;
+    margin-top: 18%;
+    text-align: center;
+}
+#content .main-keyword h2 { 
     width: 100%;
     position: relative;
-    text-align: center;
-    margin-top: 15%;
-}
-
-#content .main-search-box h2 {
-    width: 100%;
+    top: 10%;
     font-weight: 300;
-    font-size: 23px;
+    font-size: 21px;
 }
+#content .main-keyword p { 
+    position: relative;
+    left: 3.5%;
+    top: 10px;
+    width: 93%;
+    text-align: center;
+    padding: 20px 0;
+    color: #ddd;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+ }
 
 /* 메인페이지 */
 .mainContent #step_area {
@@ -484,8 +497,28 @@ html { background: #fff; }
     text-align: center
 }
 
-.main-search-box form { position: relative; top: 10%; }
-.main-search-box legend { display: none; }
+/* 메인 키워드 검색창 */
+/* .main-search-box { position: relative; }
+.main-search-box .search-content { 
+    position: absolute; 
+    left: 50%; 
+    transform: translate(-50%);
+    padding-top: 30px;
+    
+}
+.main-search-box .search-content {
+    position: relative;
+    top: 10%;
+    width: 90%; 
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.main-search-box .search-content input {
+    background: none;
+    width: 90%;
+    height: 40px;
+} */
+
 
 /* 오시는길(map.html) */
 /* iframe은 기본성격이 inline-block */
