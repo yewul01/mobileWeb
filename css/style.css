@@ -437,7 +437,8 @@ html {
 }
 
 .slide3 {
-    background-image: url(../images/mobile-main-2.jpg);
+    background-image: url(../images/mobile-main-3.jpg);
+    background-position: top;
 }
 
 /* 메인 슬라이드 도트버튼 */
