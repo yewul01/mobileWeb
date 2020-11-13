@@ -852,17 +852,20 @@ html {
 
 /* 키워드 방문인원 */
 .sub-key-box .personnel { padding-top: 50px; }
-.sub-key-box .checkBar .range { width: 95%; }
-.sub-key-box ul { width: 100%; }
+.sub-key-box .checkBar .range { width: 90%; height: 5px; }
 .sub-key-box ul li {
     position: relative;
     right: 8%;
     display: inline-block;
-    padding-left: 51px;
+    padding-left: 27px;
 }
-
-
-
+.sub-key-box .searBtn button { 
+    width: 93%; margin-top: 70px;
+    padding: 17px 0;
+    border-radius: 5px;
+    background: #2282ff;
+    color: #fff;
+}
 
 
 /* 푸터구역 */
