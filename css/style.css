@@ -355,20 +355,20 @@ html {
     background: none;
     line-height: 60px;
     border: none;
+    display: none;
 }
 
 .search-box .search-form button i {
     font-size: 23px;
-    padding: 0px 3px;
     vertical-align: middle;
     padding-left: 8px;
 }
 
 .search-box .search-close {
     font-size: 23px;
-    color: #000;
+    color: #9038c9;
     position: absolute;
-    top: 80px;
+    top: 9%;
     right: 13px;
 }
 

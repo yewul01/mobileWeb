@@ -187,12 +187,15 @@
     return false;
   })
 
-  // 키워드페이지 인원Bar
-  
- 
+  // 메인페이지 검색어 입력시 닫기 버튼 나타나기
+  $('.search-form input').on('keypress',function() {
+    $(this).nextAll().show(1000)
+  })
 
-      
   })(jQuery);
+
+  
+
 
   function join_check() {
 
