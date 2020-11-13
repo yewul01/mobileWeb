@@ -821,11 +821,11 @@ html {
     padding: 0 3px;
 }
 
-/* 메인 키워드입력창 */
+/* 키워드입력창 */
 .sub-key-box { 
     position: relative;
-    top: 20px;
-    left: 3%;
+    top: 50px;
+    left: 4%;
     font-size: 20px;
 }
 .sub-key-box .key-text h2 { color: #396285;  }
@@ -833,9 +833,10 @@ html {
     color: #000;
     padding-top: 10px;
 }
-.sub-key-box .search-icon { 
+/* 키워드창 아이콘(지역검색) */
+.sub-key-box .search-icon {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 .sub-key-box .search-icon i {
     color: #396285; 
@@ -848,9 +849,17 @@ html {
     color: #396285;
     font-size: 15px;
 }
-.sub-key-box .personnel { padding-top: 30px; }
-.sub-key-box .checkBar .range { width: 90%; }
-.sub-key-box .range-labels { display: inline-block; }
+
+/* 키워드 방문인원 */
+.sub-key-box .personnel { padding-top: 50px; }
+.sub-key-box .checkBar .range { width: 95%; }
+.sub-key-box ul { width: 100%; }
+.sub-key-box ul li {
+    position: relative;
+    right: 8%;
+    display: inline-block;
+    padding-left: 51px;
+}
 
 
 
