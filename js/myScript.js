@@ -36,7 +36,6 @@
     }
   );
 
-
   // 전국 카페
   var cafedata;
   $.ajax({
