@@ -16,7 +16,7 @@ if(!$id) {
     echo ("<p>아이디를 입력해주세요</p>");
 } else {
     $con = mysqli_connect('localhost','user1','12345','text');
-    $sql = "select * from cofetour where id='$id'";
+    $sql = "select * from cafetour where id='$id'";
     $result = mysqli_query($con, $sql);
 
     $num_record = mysqli_num_rows($result);
