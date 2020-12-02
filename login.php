@@ -3,7 +3,7 @@
 $id = $_POST['id'];
 $pass = $_POST['pass'];
 
-$con = mysqli_connect('localhost','user1','12345','text');
+$con = mysqli_connect('localhost','user1','12345','test');
 $sql = "select * from cafetour where id='$id'";
 $result = mysqli_query($con, $sql);
 
