@@ -3,8 +3,8 @@
 $id = $_POST['id'];
 $pass = $_POST['pass'];
 
-$con = mysqli_connect('localhost','user1','12345','sample');
-$sql = "select * from cafetourmember where id='$id'";
+$con = mysqli_connect('localhost','user1','12345','text');
+$sql = "select * from cafetour where id='$id'";
 $result = mysqli_query($con, $sql);
 
 $num_match = mysqli_num_rows($result);
