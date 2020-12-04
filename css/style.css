@@ -394,11 +394,8 @@ html {
     font-size: 25px;
 }
 
-.prev>h2 {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
+.prev > h2 {
+    text-align: center;
     font-size: 24px;
 }
 
