@@ -15,7 +15,7 @@ $id = $_GET['id'];
 if(!$id) {
     echo ("<p>아이디를 입력해주세요</p>");
 } else {
-    $con = mysqli_connect('localhost', 'yewul01', 'jhw687337!', 'sample');
+    $con = mysqli_connect('localhost', 'yewul01', 'jhw687337!', 'yewul01');
     $sql = "select * from cafetour where id='$id'";
     $result = mysqli_query($con, $sql);
 
