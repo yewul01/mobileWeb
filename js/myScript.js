@@ -97,7 +97,8 @@
   })
     
     
-  $('#container').on('click', '.setArea .board_game a', function(){
+  $('#container').on('click', ".setArea .board_game a, .menuBox > li:nth-child(2) a"
+  ,function(){
     var url = this.href;
     var board = $(this).attr('class');
       $("#container > #content").remove();
