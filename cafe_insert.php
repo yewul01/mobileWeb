@@ -6,7 +6,7 @@ $name = $_POST['name'];
 $tel = $_POST['tel'];
 $regist_day = date('Y-m-d');
 
-$con = mysqli_connect('localhost', 'yewul01', 'jhw687337!', 'yewul01');
+$con = mysqli_connect('localhost', 'user2', '12345', 'sample');
 $sql = "insert into cafetour (id, pass, name, tel, regist_day) ";
 $sql .= "values('$id', '$pass', '$name', '$tel', '$regist_day')";
 
